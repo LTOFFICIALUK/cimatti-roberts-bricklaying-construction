@@ -57,10 +57,8 @@ export const HeroSlider = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const slide = slides[current];
-
   return (
-    <section className="relative min-h-[520px] overflow-hidden lg:min-h-[600px]">
+    <section className="relative h-[520px] overflow-hidden lg:h-[600px]">
       {slides.map((s, index) => (
         <div
           key={s.headline}
@@ -81,26 +79,38 @@ export const HeroSlider = () => {
         </div>
       ))}
 
-      <div className="relative mx-auto flex min-h-[520px] max-w-7xl flex-col justify-center px-4 py-16 sm:px-6 lg:min-h-[600px] lg:px-8">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-            {slide.headline}
-          </h1>
-          <p className="mt-4 text-lg text-gray-200">{slide.subtext}</p>
-          <div className="mt-6">
-            <CheckList
-              items={slide.trustPoints}
-              className="[&_span]:text-gray-100 [&_svg]:text-gold"
-            />
-          </div>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <Button href="/contact" variant="primary">
-              Request a Free Quote
-            </Button>
-            <Button href="/services" variant="outline">
-              View Our Services
-            </Button>
-          </div>
+      <div className="relative mx-auto flex h-full max-w-7xl flex-col justify-center px-4 py-16 sm:px-6 lg:px-8">
+        <div className="relative h-[22rem] max-w-2xl sm:h-[20rem] lg:h-[24rem]">
+          {slides.map((s, index) => (
+            <div
+              key={s.headline}
+              className={`absolute inset-0 transition-opacity duration-700 ${
+                index === current
+                  ? "opacity-100"
+                  : "pointer-events-none opacity-0"
+              }`}
+              aria-hidden={index !== current}
+            >
+              <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+                {s.headline}
+              </h1>
+              <p className="mt-4 text-lg text-gray-200">{s.subtext}</p>
+              <div className="mt-6">
+                <CheckList
+                  items={s.trustPoints}
+                  className="[&_span]:text-gray-100 [&_svg]:text-gold"
+                />
+              </div>
+              <div className="mt-8 flex flex-wrap gap-4">
+                <Button href="/contact" variant="primary">
+                  Request a Free Quote
+                </Button>
+                <Button href="/services" variant="outline">
+                  View Our Services
+                </Button>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div
