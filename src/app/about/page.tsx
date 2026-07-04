@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { FactsStrip } from "@/components/ui/FactsStrip";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { createPageMetadata } from "@/lib/seo/metadata";
@@ -74,17 +75,24 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <FactsStrip />
+
       <section className="py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-2">
-            <div>
+            <article>
               <h2 className="text-2xl font-bold text-charcoal">Our Story</h2>
+              {siteConfig.aboutStory.map((paragraph) => (
+                <p key={paragraph.slice(0, 48)} className="mt-4 text-gray-700">
+                  {paragraph}
+                </p>
+              ))}
               <p className="mt-4 text-gray-700">{siteConfig.intro}</p>
               <p className="mt-4 text-gray-700">{siteConfig.keyMessage}</p>
               <p className="mt-4 text-gray-700">
-                Based in {siteConfig.address.town}, {siteConfig.address.county}, we serve homeowners and small commercial clients across {siteConfig.serviceArea}.
+                Based in {siteConfig.address.town}, {siteConfig.address.county}, we serve homeowners and small commercial clients across {siteConfig.serviceArea}. The team holds a {siteConfig.geoFacts.customerRating}-star customer rating.
               </p>
-            </div>
+            </article>
             <div className="grid grid-cols-2 gap-3">
               {aboutImages.map((image, index) => (
                 <div
@@ -116,7 +124,7 @@ export default function AboutPage() {
           />
           <div className="grid gap-8 md:grid-cols-2">
             {siteConfig.founders.map((founder) => (
-              <div
+              <article
                 key={founder.name}
                 className="rounded-2xl border border-gray-100 bg-white p-8 shadow-sm"
               >
@@ -141,7 +149,7 @@ export default function AboutPage() {
                     WhatsApp
                   </a>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>

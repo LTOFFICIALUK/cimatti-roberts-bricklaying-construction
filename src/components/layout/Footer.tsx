@@ -87,8 +87,16 @@ export const Footer = () => {
                   {siteConfig.email}
                 </a>
               </li>
-              <li>{siteConfig.address.full}</li>
             </ul>
+            <address className="mt-4 not-italic text-sm text-gray-600">
+              <span className="font-medium text-charcoal">{siteConfig.name}</span>
+              <br />
+              {siteConfig.address.street}
+              <br />
+              {siteConfig.address.town}, {siteConfig.address.county}
+              <br />
+              {siteConfig.address.postcode}
+            </address>
           </div>
 
           <div>

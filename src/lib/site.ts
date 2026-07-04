@@ -58,6 +58,18 @@ export const siteConfig = {
     "Sam Cimatti & Jason Roberts — both contactable directly",
   ],
   lastContentUpdate: "2026-07-04",
+  geoFacts: {
+    yearsExperience: "30+",
+    serviceAreaCount: 8,
+    customerRating: "5.0",
+    responseTime:
+      "Sam and Jason are contactable directly Monday to Saturday",
+  },
+  aboutStory: [
+    "Cimatti & Roberts Bricklaying & Construction was founded by Sam Cimatti and Jason Roberts — two builders with a shared commitment to quality workmanship and honest, direct communication with every client.",
+    "Based at 57 Parc Pentywyn in Deganwy, Conwy, the company has grown through word of mouth across North Wales. Homeowners and small commercial clients rely on the team for everything from garden walls and repointing to full home extensions and new build projects.",
+    "Both co-founders remain hands-on and contactable on every job. Clients speak directly to Sam or Jason — not a call centre — for free advice, site visits and no-obligation quotations.",
+  ],
 } as const;
 
 export const primaryPhone = siteConfig.founders[1].phone;

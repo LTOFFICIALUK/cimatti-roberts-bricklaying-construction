@@ -102,7 +102,17 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <dt className="font-medium text-gray-500">Address</dt>
-                      <dd className="text-charcoal">{siteConfig.address.full}</dd>
+                      <dd>
+                        <address className="not-italic text-charcoal">
+                          {siteConfig.name}
+                          <br />
+                          {siteConfig.address.street}
+                          <br />
+                          {siteConfig.address.town}, {siteConfig.address.county}
+                          <br />
+                          {siteConfig.address.postcode}
+                        </address>
+                      </dd>
                     </div>
                     <div>
                       <dt className="font-medium text-gray-500">Hours</dt>

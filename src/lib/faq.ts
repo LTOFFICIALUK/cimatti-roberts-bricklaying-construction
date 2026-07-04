@@ -39,4 +39,19 @@ export const faqs: FaqItem[] = [
     answer:
       "Yes. No job is too small or too large — from garden walls and repointing to double-storey extensions and new build homes.",
   },
+  {
+    question: "How does your quoting and pricing work?",
+    answer:
+      "We provide free advice and no-obligation written quotations. Pricing is based on the scope of work, materials and access — there are no hidden fees. Sam or Jason will visit your property, discuss your requirements and provide a clear quote before any work begins.",
+  },
+  {
+    question: "What is your process from first contact to starting work?",
+    answer:
+      "Contact Sam or Jason by phone, WhatsApp or our online form. We discuss your project, arrange a site visit if needed, and provide a free quotation. Once you are happy to proceed, we agree a start date and keep you updated throughout the build. We maintain a clean, tidy site and are available Mon–Sat.",
+  },
+  {
+    question: "Why choose Cimatti & Roberts over other builders?",
+    answer:
+      "Cimatti & Roberts offers 30+ years of hands-on experience, direct contact with both co-founders, fully insured work, quality guaranteed results, and a 5-star customer rating. We cover 8 service areas across North Wales.",
+  },
 ];

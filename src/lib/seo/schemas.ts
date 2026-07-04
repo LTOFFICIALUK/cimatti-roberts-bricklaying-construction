@@ -39,7 +39,7 @@ export const buildGlobalSchemaGraph = () => ({
       publisher: { "@id": BUSINESS_ID },
     },
     {
-      "@type": "GeneralContractor",
+      "@type": ["GeneralContractor", "LocalBusiness"],
       "@id": BUSINESS_ID,
       name: siteConfig.name,
       alternateName: siteConfig.shortName,

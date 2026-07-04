@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { EntitySummary } from "@/components/home/EntitySummary";
 import { AboutSlideshow } from "@/components/home/AboutSlideshow";
 import { HeroSlider } from "@/components/home/HeroSlider";
 import { TestimonialCard } from "@/components/home/TestimonialCard";
@@ -55,6 +56,7 @@ export default function HomePage() {
     <>
       <FaqJsonLd />
       <HeroSlider />
+      <EntitySummary />
       <TrustBar />
 
       <section className="py-16 lg:py-24">

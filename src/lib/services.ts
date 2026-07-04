@@ -1,3 +1,5 @@
+import { serviceDescriptions } from "@/lib/service-descriptions";
+
 export type ServiceCategory =
   | "bricklaying"
   | "extensions"
@@ -27,11 +29,7 @@ export const services: Service[] = [
     title: "Bricklaying",
     shortDescription:
       "Expert bricklaying for garden walls, new build brickwork, feature walls and cavity walls across North Wales.",
-    description: [
-      "As bricklaying specialists with over 30 years of experience, Cimatti & Roberts delivers precise, durable brickwork for homeowners and commercial clients throughout Deganwy, Conwy, Llandudno and wider North Wales.",
-      "From garden walls and boundary work to new build brickwork and feature walls, we take pride in clean lines, level courses and a professional finish on every project.",
-      "We offer free advice and no-obligation quotations — no job is too small or too large.",
-    ],
+    description: serviceDescriptions.bricklaying,
     includes: [
       "Garden and boundary walls",
       "New build brickwork",
@@ -55,11 +53,7 @@ export const services: Service[] = [
     title: "Extensions & New Build",
     shortDescription:
       "Single and double storey extensions and new build homes built to a high standard across North Wales.",
-    description: [
-      "Planning a home extension or new build in North Wales? Cimatti & Roberts brings decades of construction experience to every project, from single-storey kitchen extensions to full new build homes.",
-      "We manage the build from groundwork through to completion, ensuring quality workmanship, clear communication and a tidy site throughout.",
-      "Contact Sam or Jason for free advice and a no-obligation quotation for your extension or new build project.",
-    ],
+    description: serviceDescriptions.extensions,
     includes: [
       "Single-storey extensions",
       "Double-storey extensions",
@@ -83,11 +77,7 @@ export const services: Service[] = [
     title: "Structural Work & RSJs",
     shortDescription:
       "Wall openings, RSJ and steel installation, and structural alterations carried out safely and professionally.",
-    description: [
-      "Structural alterations require experience, precision and the right equipment. Cimatti & Roberts provides professional wall openings, RSJ installation and structural work across North Wales.",
-      "Whether you are removing a load-bearing wall, creating an open-plan space or installing steel beams, we ensure the work is completed safely and to building regulations.",
-      "Get in touch for free advice on your structural project in Conwy, Llandudno or surrounding areas.",
-    ],
+    description: serviceDescriptions.structural,
     includes: [
       "Wall openings and removals",
       "RSJ and steel beam installation",
@@ -114,11 +104,7 @@ export const services: Service[] = [
     title: "Repointing & Brick Repairs",
     shortDescription:
       "Repointing, brick repairs, replacements and chimney work to restore and protect your property.",
-    description: [
-      "Protect and restore your property with professional repointing and brick repair services from Cimatti & Roberts. We work on period properties and modern homes across North Wales.",
-      "Our repointing work includes traditional lime mortar where required, brick replacements and chimney repairs — all completed to a high standard with minimal disruption.",
-      "Building the future, restoring the past — contact us for a free assessment and quotation.",
-    ],
+    description: serviceDescriptions.repointing,
     includes: [
       "Repointing",
       "Brick repairs and replacements",
@@ -142,11 +128,7 @@ export const services: Service[] = [
     title: "General Building & Joinery",
     shortDescription:
       "General building work, joinery and refurbishments for domestic and small commercial projects.",
-    description: [
-      "Cimatti & Roberts offers a full range of general building and joinery services for homeowners and small commercial clients across North Wales.",
-      "From refurbishments and alterations to bespoke joinery work, we deliver reliable, professional results with the same attention to detail that defines all our projects.",
-      "No job is too small or too large — get in touch for free advice and a quotation.",
-    ],
+    description: serviceDescriptions["general-building"],
     includes: [
       "General building work",
       "Joinery",
@@ -170,11 +152,7 @@ export const services: Service[] = [
     title: "Groundwork & Drainage",
     shortDescription:
       "Footings, groundwork and drainage solutions for extensions, new builds and landscaping projects.",
-    description: [
-      "Solid foundations are essential for any construction project. Cimatti & Roberts provides professional footings, groundwork and drainage services across Deganwy, Conwy and North Wales.",
-      "Whether you need foundations for an extension, drainage for a new patio or groundwork for a landscaping project, we have the experience and equipment to get it done right.",
-      "Contact us for free advice and a no-obligation quote on your groundwork or drainage requirements.",
-    ],
+    description: serviceDescriptions.groundwork,
     includes: [
       "Footings and foundations",
       "Groundwork preparation",
@@ -198,11 +176,7 @@ export const services: Service[] = [
     title: "Plastering & Rendering",
     shortDescription:
       "Internal plastering and external rendering for a smooth, durable finish on any project.",
-    description: [
-      "Complete your build or renovation with professional plastering and rendering from Cimatti & Roberts. We provide internal plastering and external rendering services across North Wales.",
-      "Our team delivers smooth, durable finishes that protect your property and enhance its appearance — whether it is a new extension, a refurbishment or external wall rendering.",
-      "Request a free quotation for plastering or rendering work in Conwy, Llandudno or surrounding areas.",
-    ],
+    description: serviceDescriptions.plastering,
     includes: [
       "Internal plastering",
       "External rendering",
@@ -226,11 +200,7 @@ export const services: Service[] = [
     title: "Landscaping & Paving",
     shortDescription:
       "Paving, slabbing, patios, driveways and landscaping to transform your outdoor space.",
-    description: [
-      "Transform your outdoor space with professional paving, slabbing and landscaping from Cimatti & Roberts. We create beautiful, durable patios, driveways and garden areas across North Wales.",
-      "From block paving and slab laying to full garden landscaping, our team delivers precision work with a clean, tidy finish — as praised by our customers on Facebook and Google.",
-      "Contact us for a free quotation on paving, slabbing or landscaping work in Deganwy, Conwy and surrounding areas.",
-    ],
+    description: serviceDescriptions.landscaping,
     includes: [
       "Paving and slabbing",
       "Patios and sitting areas",

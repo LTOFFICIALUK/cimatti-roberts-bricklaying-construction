@@ -24,6 +24,7 @@ export const ServiceDetailTemplate = ({
 
   return (
     <>
+      <article>
       <section className="relative min-h-[380px] overflow-hidden">
         <Image
           src={service.image}
@@ -224,6 +225,7 @@ export const ServiceDetailTemplate = ({
         title={`Need ${service.title}?`}
         description="Free advice and no-obligation quotations across Deganwy, Conwy, Llandudno and all of North Wales."
       />
+    </article>
     </>
   );
 };
