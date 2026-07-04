@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
+import { services } from "@/lib/services";
 import { siteConfig } from "@/lib/site";
 
 export const Footer = () => {
   return (
     <footer className="border-t border-gray-100 bg-white pb-[calc(5rem+env(safe-area-inset-bottom,0px))] md:pb-0">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div>
             <Link href="/" className="inline-flex bg-white">
               <Image
@@ -38,6 +39,24 @@ export const Footer = () => {
                     className="text-gray-600 transition-colors hover:text-gold"
                   >
                     {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-wide text-charcoal">
+              Services
+            </h3>
+            <ul className="space-y-2 text-sm">
+              {services.map((service) => (
+                <li key={service.slug}>
+                  <Link
+                    href={`/services/${service.slug}`}
+                    className="text-gray-600 transition-colors hover:text-gold"
+                  >
+                    {service.title}
                   </Link>
                 </li>
               ))}

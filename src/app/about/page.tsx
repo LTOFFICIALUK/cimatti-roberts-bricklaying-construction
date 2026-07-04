@@ -3,12 +3,14 @@ import Image from "next/image";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { createPageMetadata } from "@/lib/seo/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   ...createPageMetadata({
     title: "About Us",
-    description: `Meet Sam Cimatti and Jason Roberts — co-founders of ${siteConfig.name} with 30+ years of bricklaying and construction experience in North Wales.`,
+    description:
+      "Meet Sam Cimatti and Jason Roberts — co-founders with 30+ years of bricklaying and construction experience serving Deganwy, Conwy and North Wales.",
     path: "/about",
   }),
   keywords: [
@@ -42,6 +44,12 @@ const aboutImages = [
 export default function AboutPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "About Us", path: "/about" },
+        ]}
+      />
       <section className="relative min-h-[360px] overflow-hidden lg:min-h-[400px]">
         <Image
           src={heroImage.src}

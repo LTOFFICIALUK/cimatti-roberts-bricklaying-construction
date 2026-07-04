@@ -1,5 +1,3 @@
-import { siteConfig } from "@/lib/site";
-
 export type ServiceCategory =
   | "bricklaying"
   | "extensions"
@@ -48,9 +46,9 @@ export const services: Service[] = [
       "/images/projects/garden-wall-brick-pillars-conwy/garden-wall-brick-pillars-conwy-overview-01.jpg",
       "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-overview-01.jpg"
     ],
-    seoTitle: `Bricklaying North Wales | ${siteConfig.name}`,
+    seoTitle: "Bricklaying North Wales",
     seoDescription:
-      `${siteConfig.name} — professional bricklaying in North Wales. Garden walls, new build brickwork and feature walls. Free quotes from trusted local bricklayers in Conwy and Deganwy.`,
+      "Professional bricklaying in Deganwy, Conwy and North Wales. Garden walls, new build brickwork and feature walls. Free quotes from trusted local bricklayers.",
   },
   {
     slug: "extensions",
@@ -76,9 +74,9 @@ export const services: Service[] = [
       "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-overview-01.jpg",
       "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-overview-01.jpg"
     ],
-    seoTitle: `Extensions & New Build North Wales | ${siteConfig.name}`,
+    seoTitle: "Extensions & New Build North Wales",
     seoDescription:
-      `${siteConfig.name} — home extensions and new build homes in Conwy, Deganwy and North Wales. 30+ years experience. Free quotes from trusted local builders.`,
+      "Home extensions and new build homes in Conwy, Deganwy and North Wales. 30+ years experience. Free quotes from trusted local builders.",
   },
   {
     slug: "structural",
@@ -107,9 +105,9 @@ export const services: Service[] = [
       "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-overview-01.jpg",
       "/images/projects/concrete-base-slab-north-wales/concrete-base-slab-north-wales-overview-01.jpg"
     ],
-    seoTitle: `RSJ Installation & Structural Work North Wales | ${siteConfig.name}`,
+    seoTitle: "RSJ & Structural Work North Wales",
     seoDescription:
-      `${siteConfig.name} — RSJ installation, wall openings and structural alterations in North Wales. Professional, insured builders in Conwy and Deganwy. Free quotes.`,
+      "RSJ installation, wall openings and structural alterations in North Wales. Professional, insured builders in Conwy and Deganwy. Free quotes.",
   },
   {
     slug: "repointing",
@@ -135,9 +133,9 @@ export const services: Service[] = [
       "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-detail-02.jpg",
       "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-progress-03.jpg"
     ],
-    seoTitle: `Repointing & Brick Repairs Conwy | ${siteConfig.name}`,
+    seoTitle: "Repointing & Brick Repairs Conwy",
     seoDescription:
-      `${siteConfig.name} — professional repointing and brick repairs in Conwy and North Wales. Chimney work, lime mortar and brick replacements. Free quotes from local specialists.`,
+      "Professional repointing and brick repairs in Conwy and North Wales. Chimney work, lime mortar and brick replacements. Free quotes from local specialists.",
   },
   {
     slug: "general-building",
@@ -163,9 +161,9 @@ export const services: Service[] = [
       "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-overview-01.jpg",
       "/images/projects/interior-plastering-stud-walls/interior-plastering-stud-walls-overview-01.jpg"
     ],
-    seoTitle: `General Building & Joinery North Wales | ${siteConfig.name}`,
+    seoTitle: "General Building & Joinery North Wales",
     seoDescription:
-      `${siteConfig.name} — general building work and joinery in North Wales. Refurbishments, alterations and renovations. Free quotes from trusted local builders in Conwy.`,
+      "General building work and joinery in North Wales. Refurbishments, alterations and renovations. Free quotes from trusted local builders in Conwy.",
   },
   {
     slug: "groundwork",
@@ -191,9 +189,9 @@ export const services: Service[] = [
       "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-overview-01.jpg",
       "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-overview-01.jpg"
     ],
-    seoTitle: `Groundwork & Drainage North Wales | ${siteConfig.name}`,
+    seoTitle: "Groundwork & Drainage North Wales",
     seoDescription:
-      `${siteConfig.name} — footings, groundwork and drainage in North Wales. Professional foundations and drainage solutions. Free quotes from local builders in Conwy and Deganwy.`,
+      "Footings, groundwork and drainage in North Wales. Professional foundations and drainage solutions. Free quotes from local builders in Conwy and Deganwy.",
   },
   {
     slug: "plastering",
@@ -219,9 +217,9 @@ export const services: Service[] = [
       "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-02.jpg",
       "/images/projects/interior-floor-screeding-conwy/interior-floor-screeding-conwy-overview-01.jpg"
     ],
-    seoTitle: `Plastering & Rendering North Wales | ${siteConfig.name}`,
+    seoTitle: "Plastering & Rendering North Wales",
     seoDescription:
-      `${siteConfig.name} — professional plastering and rendering in North Wales. Internal plastering and external rendering. Free quotes from trusted builders in Conwy and Deganwy.`,
+      "Professional plastering and rendering in North Wales. Internal plastering and external rendering. Free quotes from trusted builders in Conwy and Deganwy.",
   },
   {
     slug: "landscaping",
@@ -247,9 +245,9 @@ export const services: Service[] = [
       "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-overview-01.jpg",
       "/images/projects/modern-patio-conwy/modern-patio-conwy-overview-01.jpg"
     ],
-    seoTitle: `Block Paving & Landscaping North Wales | ${siteConfig.name}`,
+    seoTitle: "Block Paving & Landscaping North Wales",
     seoDescription:
-      `${siteConfig.name} — paving, slabbing and landscaping in North Wales. Patios, driveways and garden work. Free quotes from professional builders in Conwy and Deganwy.`,
+      "Paving, slabbing and landscaping in North Wales. Patios, driveways and garden work. Free quotes from professional builders in Conwy and Deganwy.",
   },
 ];
 

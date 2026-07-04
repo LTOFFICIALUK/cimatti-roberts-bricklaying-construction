@@ -2,14 +2,16 @@ import type { Metadata } from "next";
 import { GalleryGrid } from "@/components/gallery/GalleryGrid";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { createPageMetadata } from "@/lib/seo/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { projects } from "@/lib/projects";
 import { buildCategoryGroups } from "@/lib/project-utils";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   ...createPageMetadata({
-    title: "Project Gallery",
-    description: `Browse 40+ real construction projects by ${siteConfig.name} — bricklaying, extensions, paving, structural work and repointing across Conwy and North Wales.`,
+    title: "Project Gallery North Wales",
+    description:
+      "Browse 40+ real construction projects — bricklaying, extensions, paving, structural work and repointing across Conwy, Deganwy and North Wales.",
     path: "/gallery",
   }),
   keywords: [
@@ -26,6 +28,12 @@ const categoryGroups = buildCategoryGroups(projects);
 export default function GalleryPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Gallery", path: "/gallery" },
+        ]}
+      />
       <section className="bg-charcoal py-16 text-white lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <span className="mb-4 inline-block rounded-full bg-gold px-4 py-1 text-xs font-bold uppercase tracking-wider text-charcoal">

@@ -64,8 +64,6 @@ export const buildGlobalSchemaGraph = () => ({
             "Friday",
             "Saturday",
           ],
-          opens: "08:00",
-          closes: "18:00",
         },
       ],
       sameAs: [

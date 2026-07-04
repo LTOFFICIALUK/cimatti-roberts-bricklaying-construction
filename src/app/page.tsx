@@ -10,8 +10,10 @@ import { TrustBar, CheckList } from "@/components/ui/TrustBar";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
 import { CTABanner } from "@/components/ui/CTABanner";
+import { FaqSection } from "@/components/ui/FaqSection";
 import { createPageMetadata } from "@/lib/seo/metadata";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
+import { faqs } from "@/lib/faq";
 import { projects } from "@/lib/projects";
 import { services } from "@/lib/services";
 import { testimonials } from "@/lib/testimonials";
@@ -20,7 +22,8 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   ...createPageMetadata({
     title: "Bricklaying & Construction North Wales",
-    description: `${siteConfig.name} — trusted bricklaying and construction in Deganwy, Conwy and North Wales. 30+ years experience. Free quotes on extensions, repointing, paving and more.`,
+    description:
+      "Trusted bricklaying and construction in Deganwy, Conwy and North Wales. 30+ years experience. Free quotes on extensions, repointing, paving and more.",
     path: "/",
   }),
   keywords: [
@@ -147,6 +150,11 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FaqSection
+        items={faqs}
+        className="border-t border-gray-100 py-16 lg:py-24"
+      />
 
       <section className="py-16 lg:py-24" id="contact">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

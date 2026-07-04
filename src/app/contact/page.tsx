@@ -1,14 +1,18 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { FaqSection } from "@/components/ui/FaqSection";
 import { createPageMetadata } from "@/lib/seo/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
+import { faqs } from "@/lib/faq";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   ...createPageMetadata({
-    title: "Contact Us",
-    description: `Contact ${siteConfig.name} for a free quote. Call Sam on 07872 463390 or Jason on 07861 140795. Based in Deganwy, Conwy, North Wales.`,
+    title: "Contact Us for a Free Quote",
+    description:
+      "Contact Cimatti & Roberts for a free quote. Call Sam on 07872 463390 or Jason on 07861 140795. Based in Deganwy, Conwy, North Wales.",
     path: "/contact",
   }),
   keywords: [
@@ -22,6 +26,12 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Contact", path: "/contact" },
+        ]}
+      />
       <FaqJsonLd />
       <section className="bg-charcoal py-16 text-white lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -124,6 +134,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <FaqSection items={faqs} />
     </>
   );
 }

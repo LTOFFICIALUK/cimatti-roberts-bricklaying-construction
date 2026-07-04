@@ -107,8 +107,10 @@ export const createServiceMetadata = ({
   const path = `/services/${slug}`;
   const url = `${siteConfig.url}${path}`;
 
+  const pageTitle = `${title} | ${siteConfig.shortName}`;
+
   return {
-    title,
+    title: { absolute: pageTitle },
     description,
     ...(keywords?.length ? { keywords } : {}),
     alternates: { canonical: url },
@@ -116,14 +118,14 @@ export const createServiceMetadata = ({
       type: "website",
       locale: siteConfig.locale,
       siteName: siteConfig.name,
-      title,
+      title: pageTitle,
       description,
       url,
       images: [{ url: image, alt: title, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: pageTitle,
       description,
       images: [image],
     },

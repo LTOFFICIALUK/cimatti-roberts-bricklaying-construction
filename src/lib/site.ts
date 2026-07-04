@@ -5,7 +5,7 @@ export const siteConfig = {
   secondaryTagline: "Building the future, restoring the past",
   keyMessage:
     "No job is too small or too large — reliable, professional results every time.",
-  url: "https://cimattiandroberts.co.uk",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://cimattiandroberts.co.uk",
   locale: "en_GB",
   email: "cimattiandrobertsbricklaying@outlook.com",
   address: {

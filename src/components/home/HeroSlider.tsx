@@ -92,8 +92,13 @@ export const HeroSlider = () => {
               aria-hidden={index !== current}
             >
               <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
-                {s.headline}
+                {index === current ? s.headline : null}
               </h1>
+              {index !== current && (
+                <p className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
+                  {s.headline}
+                </p>
+              )}
               <p className="mt-4 text-lg text-gray-200">{s.subtext}</p>
               <div className="mt-6">
                 <CheckList

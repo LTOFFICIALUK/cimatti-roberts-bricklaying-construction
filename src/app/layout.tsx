@@ -21,10 +21,11 @@ export const metadata: Metadata = {
   category: "Construction",
   classification: "Bricklaying and General Construction Services",
   title: {
-    default: `${siteConfig.name} | Bricklaying & Construction North Wales`,
-    template: `%s | ${siteConfig.name}`,
+    default: `Bricklayers North Wales | ${siteConfig.shortName}`,
+    template: `%s | ${siteConfig.shortName}`,
   },
-  description: `${siteConfig.name} — trusted bricklaying and construction in North Wales. 30+ years experience. Extensions, repointing, paving and more. Free quotes — Deganwy, Conwy, Llandudno.`,
+  description:
+    "Trusted bricklaying and construction in Deganwy, Conwy and North Wales. 30+ years experience. Extensions, repointing, paving and more. Free quotes.",
   keywords: [
     "bricklayers North Wales",
     "bricklaying Conwy",

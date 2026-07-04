@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { createPageMetadata } from "@/lib/seo/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { services } from "@/lib/services";
 import {
   primaryPhone,
@@ -14,8 +15,9 @@ import {
 
 export const metadata: Metadata = {
   ...createPageMetadata({
-    title: "Our Services",
-    description: `Full range of bricklaying and construction services from ${siteConfig.name} in North Wales — extensions, repointing, RSJs, paving, plastering, groundwork and more. Free quotes.`,
+    title: "Construction Services North Wales",
+    description:
+      "Bricklaying, extensions, repointing, RSJs, paving, plastering and groundwork across Deganwy, Conwy and North Wales. Free quotes from trusted local builders.",
     path: "/services",
   }),
   keywords: [
@@ -29,6 +31,12 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Services", path: "/services" },
+        ]}
+      />
       <section className="bg-charcoal py-16 text-white lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <span className="mb-4 inline-block rounded-full bg-gold px-4 py-1 text-xs font-bold uppercase tracking-wider text-charcoal">

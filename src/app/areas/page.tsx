@@ -3,14 +3,15 @@ import Link from "next/link";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { createPageMetadata } from "@/lib/seo/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { areas } from "@/lib/areas";
 import { services } from "@/lib/services";
-import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   ...createPageMetadata({
-    title: "Areas We Cover",
-    description: `${siteConfig.name} serves Deganwy, Conwy, Llandudno, Colwyn Bay, Abergele, Rhyl, Bangor and wider North Wales. Free quotes on all construction work.`,
+    title: "Areas We Cover in North Wales",
+    description:
+      "Builders serving Deganwy, Conwy, Llandudno, Colwyn Bay, Abergele, Rhyl, Bangor and wider North Wales. Free quotes on all bricklaying and construction work.",
     path: "/areas",
   }),
   keywords: [
@@ -25,6 +26,12 @@ export const metadata: Metadata = {
 export default function AreasPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Areas We Cover", path: "/areas" },
+        ]}
+      />
       <section className="bg-charcoal py-16 text-white lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <span className="mb-4 inline-block rounded-full bg-gold px-4 py-1 text-xs font-bold uppercase tracking-wider text-charcoal">
