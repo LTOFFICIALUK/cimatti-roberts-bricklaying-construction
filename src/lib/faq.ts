@@ -39,9 +39,4 @@ export const faqs: FaqItem[] = [
     answer:
       "Yes. No job is too small or too large — from garden walls and repointing to double-storey extensions and new build homes.",
   },
-  {
-    question: "Where are you based?",
-    answer:
-      "We are based at 57 Parc Pentywyn, Deganwy, Conwy, LL31 9FP, and work across North Wales.",
-  },
 ];
