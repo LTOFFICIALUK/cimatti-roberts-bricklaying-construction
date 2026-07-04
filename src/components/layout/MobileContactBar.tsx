@@ -1,12 +1,20 @@
+"use client";
+
 import Link from "next/link";
+import { useScrollVisibility } from "@/hooks/useScrollVisibility";
 import { primaryPhone, primaryPhoneDisplay } from "@/lib/site";
 import { siteConfig } from "@/lib/site";
 
 export const MobileContactBar = () => {
+  const isVisible = useScrollVisibility();
   const whatsappUrl = `https://wa.me/${siteConfig.founders[1].whatsapp}?text=${encodeURIComponent("Hi, I'd like to request a free quote for a project.")}`;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-gray-200 bg-white pb-[env(safe-area-inset-bottom,0px)] shadow-lg md:hidden">
+    <div
+      className={`fixed bottom-0 left-0 right-0 z-50 border-t border-gray-200 bg-white pb-[env(safe-area-inset-bottom,0px)] shadow-lg transition-transform duration-300 ease-in-out md:hidden ${
+        isVisible ? "translate-y-0" : "translate-y-full"
+      }`}
+    >
       <div className="grid grid-cols-3 divide-x divide-gray-200">
         <a
           href={`tel:${primaryPhone}`}

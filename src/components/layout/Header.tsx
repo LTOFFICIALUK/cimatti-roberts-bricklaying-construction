@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { MobileMenu } from "@/components/layout/MobileMenu";
+import { useScrollVisibility } from "@/hooks/useScrollVisibility";
 import { BUSINESS_ID } from "@/lib/seo/ids";
 import { siteConfig, primaryPhone, primaryPhoneDisplay } from "@/lib/site";
 
@@ -16,8 +19,14 @@ const navLinks = [
 ];
 
 export const Header = () => {
+  const isVisible = useScrollVisibility();
+
   return (
-    <header className="sticky top-0 z-50 border-b border-gray-100 bg-white">
+    <header
+      className={`sticky top-0 z-50 border-b border-gray-100 bg-white transition-transform duration-300 ease-in-out ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 bg-white px-4 py-3 sm:px-6 lg:px-8">
         <Link
           href="/"
