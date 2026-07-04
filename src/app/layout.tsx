@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { MobileContactBar } from "@/components/layout/MobileContactBar";
+import { MobileShell } from "@/components/layout/MobileShell";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { buildVerificationMetadata } from "@/lib/seo/metadata";
 import { siteConfig } from "@/lib/site";
@@ -114,10 +112,7 @@ export default function RootLayout({
       </head>
       <body className={`${plusJakarta.variable} font-sans`}>
         <JsonLd />
-        <Header />
-        <main className="min-h-screen pb-[calc(5rem+env(safe-area-inset-bottom,0px))] md:pb-0">{children}</main>
-        <Footer />
-        <MobileContactBar />
+        <MobileShell>{children}</MobileShell>
       </body>
     </html>
   );

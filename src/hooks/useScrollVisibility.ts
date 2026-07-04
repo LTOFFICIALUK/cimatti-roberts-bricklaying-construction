@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 const SCROLL_THRESHOLD = 8;
 const TOP_OFFSET = 64;
 
-export const useScrollVisibility = () => {
+export const useScrollVisibility = (forceVisible = false) => {
   const [isVisible, setIsVisible] = useState(true);
   const lastScrollY = useRef(0);
   const ticking = useRef(false);
@@ -40,5 +40,5 @@ export const useScrollVisibility = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return isVisible;
+  return forceVisible || isVisible;
 };

@@ -1,9 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { useMobileMenu } from "@/components/layout/MobileShell";
 import { siteConfig } from "@/lib/site";
 
 interface NavLink {
@@ -15,35 +17,178 @@ interface MobileMenuProps {
   navLinks: NavLink[];
 }
 
+const contactBarOffset =
+  "bottom-[calc(5rem+env(safe-area-inset-bottom,0px))]";
+
 export const MobileMenu = ({ navLinks }: MobileMenuProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const { isMenuOpen, setIsMenuOpen } = useMobileMenu();
+  const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
-    document.body.style.overflow = isOpen ? "hidden" : "";
+    setIsMounted(true);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
+
     return () => {
       document.body.style.overflow = "";
     };
-  }, [isOpen]);
+  }, [isMenuOpen]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setIsOpen(false);
+      if (event.key === "Escape") setIsMenuOpen(false);
     };
 
-    if (isOpen) {
+    if (isMenuOpen) {
       window.addEventListener("keydown", handleKeyDown);
     }
 
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isOpen]);
+  }, [isMenuOpen, setIsMenuOpen]);
 
   useEffect(() => {
-    setIsOpen(false);
-  }, [pathname]);
+    setIsMenuOpen(false);
+  }, [pathname, setIsMenuOpen]);
 
-  const handleOpen = () => setIsOpen(true);
-  const handleClose = () => setIsOpen(false);
+  const handleOpen = () => setIsMenuOpen(true);
+  const handleClose = () => setIsMenuOpen(false);
+
+  const menuOverlay = (
+    <div
+      className={`fixed inset-x-0 top-0 ${contactBarOffset} z-60 transition-opacity duration-300 ${
+        isMenuOpen
+          ? "pointer-events-auto opacity-100"
+          : "pointer-events-none opacity-0"
+      }`}
+      aria-hidden={!isMenuOpen}
+    >
+      <button
+        type="button"
+        className="absolute inset-0 bg-charcoal/50 backdrop-blur-sm"
+        onClick={handleClose}
+        aria-label="Close menu"
+        tabIndex={isMenuOpen ? 0 : -1}
+      />
+
+      <nav
+        id="mobile-menu"
+        className={`absolute right-0 top-0 bottom-0 flex w-full max-w-[min(100vw,22rem)] flex-col bg-white shadow-2xl transition-transform duration-300 ease-out ${
+          isMenuOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+        aria-label="Mobile navigation"
+        aria-hidden={!isMenuOpen}
+      >
+        <div className="h-1 shrink-0 bg-gold" aria-hidden="true" />
+
+        <div className="shrink-0 border-b border-gray-100 px-5 pb-4 pt-5">
+          <div className="flex items-start justify-between gap-4">
+            <Link
+              href="/"
+              onClick={handleClose}
+              className="min-w-0 flex-1"
+              tabIndex={isMenuOpen ? 0 : -1}
+              aria-label={`${siteConfig.shortName} — Home`}
+            >
+              <Image
+                src="/logo.png"
+                alt=""
+                width={1024}
+                height={824}
+                className="h-10 w-auto"
+                aria-hidden="true"
+              />
+              <p className="mt-2.5 text-xs font-medium leading-snug text-gray-500">
+                {siteConfig.secondaryTagline}
+              </p>
+            </Link>
+            <button
+              type="button"
+              onClick={handleClose}
+              className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-gray-200 text-gray-500 transition-colors hover:border-gold/40 hover:bg-gold/5 hover:text-charcoal"
+              aria-label="Close menu"
+              tabIndex={isMenuOpen ? 0 : -1}
+            >
+              <CloseIcon />
+            </button>
+          </div>
+        </div>
+
+        <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
+          <div className="px-5 pt-5">
+            <p className="mb-3 text-[11px] font-bold uppercase tracking-widest text-gray-400">
+              Navigation
+            </p>
+            <ul className="space-y-0.5">
+              {navLinks.map((link) => {
+                const isActive =
+                  link.href === "/"
+                    ? pathname === "/"
+                    : pathname.startsWith(link.href);
+
+                return (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      onClick={handleClose}
+                      className={`group flex items-center justify-between rounded-lg border-l-[3px] py-3 pl-3.5 pr-2 text-[15px] font-medium transition-colors ${
+                        isActive
+                          ? "border-gold bg-gold/10 text-charcoal"
+                          : "border-transparent text-gray-600 hover:border-gold/30 hover:bg-gray-50 hover:text-charcoal"
+                      }`}
+                      aria-current={isActive ? "page" : undefined}
+                      tabIndex={isMenuOpen ? 0 : -1}
+                    >
+                      {link.label}
+                      <ChevronIcon
+                        className={`h-4 w-4 shrink-0 transition-transform ${
+                          isActive
+                            ? "text-gold-dark"
+                            : "text-gray-300 group-hover:translate-x-0.5 group-hover:text-gold"
+                        }`}
+                      />
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+
+          <div className="mt-auto px-5 pb-6 pt-6">
+            <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
+              <p className="text-sm font-medium leading-snug text-charcoal">
+                {siteConfig.tagline}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {siteConfig.trustPoints.slice(0, 2).map((point) => (
+                  <li
+                    key={point}
+                    className="flex items-start gap-2 text-xs text-gray-600"
+                  >
+                    <CheckIcon />
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/contact"
+                onClick={handleClose}
+                className="mt-4 flex w-full items-center justify-center rounded-full bg-gold px-5 py-3 text-sm font-semibold text-charcoal transition-colors hover:bg-gold-dark"
+                tabIndex={isMenuOpen ? 0 : -1}
+              >
+                Get a Free Quote
+              </Link>
+            </div>
+            <p className="mt-3 text-center text-[11px] text-gray-400">
+              {siteConfig.hours}
+            </p>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
 
   return (
     <div className="lg:hidden">
@@ -52,141 +197,13 @@ export const MobileMenu = ({ navLinks }: MobileMenuProps) => {
         onClick={handleOpen}
         className="flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 text-charcoal transition-colors hover:border-gold/40 hover:bg-gold/5"
         aria-label="Open menu"
-        aria-expanded={isOpen}
+        aria-expanded={isMenuOpen}
         aria-controls="mobile-menu"
       >
         <MenuIcon />
       </button>
 
-      <div
-        className={`fixed inset-0 z-60 transition-opacity duration-300 ${
-          isOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
-        }`}
-        aria-hidden={!isOpen}
-      >
-        <button
-          type="button"
-          className="absolute inset-0 bg-charcoal/50 backdrop-blur-sm"
-          onClick={handleClose}
-          aria-label="Close menu"
-          tabIndex={isOpen ? 0 : -1}
-        />
-
-        <nav
-          id="mobile-menu"
-          className={`absolute right-0 top-0 flex h-full w-full max-w-[min(100vw,22rem)] flex-col bg-white shadow-2xl transition-transform duration-300 ease-out ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          }`}
-          aria-label="Mobile navigation"
-          aria-hidden={!isOpen}
-        >
-          <div className="h-1 shrink-0 bg-gold" aria-hidden="true" />
-
-          <div className="shrink-0 border-b border-gray-100 px-5 pb-4 pt-5">
-            <div className="flex items-start justify-between gap-4">
-              <Link
-                href="/"
-                onClick={handleClose}
-                className="min-w-0 flex-1"
-                tabIndex={isOpen ? 0 : -1}
-                aria-label={`${siteConfig.shortName} — Home`}
-              >
-                <Image
-                  src="/logo.png"
-                  alt=""
-                  width={1024}
-                  height={824}
-                  className="h-10 w-auto"
-                  aria-hidden="true"
-                />
-                <p className="mt-2.5 text-xs font-medium leading-snug text-gray-500">
-                  {siteConfig.secondaryTagline}
-                </p>
-              </Link>
-              <button
-                type="button"
-                onClick={handleClose}
-                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-gray-200 text-gray-500 transition-colors hover:border-gold/40 hover:bg-gold/5 hover:text-charcoal"
-                aria-label="Close menu"
-                tabIndex={isOpen ? 0 : -1}
-              >
-                <CloseIcon />
-              </button>
-            </div>
-          </div>
-
-          <div className="flex min-h-0 flex-1 flex-col overflow-y-auto">
-            <div className="px-5 pt-5">
-              <p className="mb-3 text-[11px] font-bold uppercase tracking-widest text-gray-400">
-                Navigation
-              </p>
-              <ul className="space-y-0.5">
-                {navLinks.map((link) => {
-                  const isActive =
-                    link.href === "/"
-                      ? pathname === "/"
-                      : pathname.startsWith(link.href);
-
-                  return (
-                    <li key={link.href}>
-                      <Link
-                        href={link.href}
-                        onClick={handleClose}
-                        className={`group flex items-center justify-between rounded-lg border-l-[3px] py-3 pl-3.5 pr-2 text-[15px] font-medium transition-colors ${
-                          isActive
-                            ? "border-gold bg-gold/10 text-charcoal"
-                            : "border-transparent text-gray-600 hover:border-gold/30 hover:bg-gray-50 hover:text-charcoal"
-                        }`}
-                        aria-current={isActive ? "page" : undefined}
-                        tabIndex={isOpen ? 0 : -1}
-                      >
-                        {link.label}
-                        <ChevronIcon
-                          className={`h-4 w-4 shrink-0 transition-transform ${
-                            isActive
-                              ? "text-gold-dark"
-                              : "text-gray-300 group-hover:translate-x-0.5 group-hover:text-gold"
-                          }`}
-                        />
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-
-            <div className="mt-auto px-5 pb-24 pt-6">
-              <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
-                <p className="text-sm font-medium leading-snug text-charcoal">
-                  {siteConfig.tagline}
-                </p>
-                <ul className="mt-3 space-y-2">
-                  {siteConfig.trustPoints.slice(0, 2).map((point) => (
-                    <li
-                      key={point}
-                      className="flex items-start gap-2 text-xs text-gray-600"
-                    >
-                      <CheckIcon />
-                      <span>{point}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  href="/contact"
-                  onClick={handleClose}
-                  className="mt-4 flex w-full items-center justify-center rounded-full bg-gold px-5 py-3 text-sm font-semibold text-charcoal transition-colors hover:bg-gold-dark"
-                  tabIndex={isOpen ? 0 : -1}
-                >
-                  Get a Free Quote
-                </Link>
-              </div>
-              <p className="mt-3 text-center text-[11px] text-gray-400">
-                {siteConfig.hours}
-              </p>
-            </div>
-          </div>
-        </nav>
-      </div>
+      {isMounted ? createPortal(menuOverlay, document.body) : null}
     </div>
   );
 };
