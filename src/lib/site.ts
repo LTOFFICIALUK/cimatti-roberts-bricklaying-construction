@@ -60,5 +60,5 @@ export const siteConfig = {
   lastContentUpdate: "2026-07-04",
 } as const;
 
-export const primaryPhone = siteConfig.founders[0].phone;
-export const primaryPhoneDisplay = siteConfig.founders[0].phoneDisplay;
+export const primaryPhone = siteConfig.founders[1].phone;
+export const primaryPhoneDisplay = siteConfig.founders[1].phoneDisplay;
