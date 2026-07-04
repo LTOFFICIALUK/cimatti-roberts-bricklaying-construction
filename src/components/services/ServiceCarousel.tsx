@@ -183,29 +183,26 @@ const MobileServiceCarousel = ({ services }: { services: Service[] }) => {
   };
 
   return (
-    <div className="-mx-4 md:hidden">
-      <div className="flex">
-        <div aria-hidden="true" className="w-4 shrink-0" />
-        <div
-          className="min-w-0 flex-1 touch-pan-y overflow-hidden"
-          style={{ touchAction: "pan-y" }}
-          aria-label="Construction services. Swipe left or right to explore."
-          onPointerDown={handlePointerDown}
-          onPointerMove={handlePointerMove}
-          onPointerUp={handlePointerEnd}
-          onPointerCancel={handlePointerEnd}
-        >
-          <div ref={trackRef} className="flex w-max gap-4 pr-4 will-change-transform">
-            {mobileItems.map((service, index) => (
-              <ServiceCard
-                key={`${service.slug}-${index}`}
-                service={service}
-                className={CARD_CLASS}
-                duplicate={index >= setCount}
-                priority={index < 2}
-              />
-            ))}
-          </div>
+    <div className="overflow-x-hidden md:hidden">
+      <div
+        className="min-w-0 touch-pan-y overflow-hidden"
+        style={{ touchAction: "pan-y" }}
+        aria-label="Construction services. Swipe left or right to explore."
+        onPointerDown={handlePointerDown}
+        onPointerMove={handlePointerMove}
+        onPointerUp={handlePointerEnd}
+        onPointerCancel={handlePointerEnd}
+      >
+        <div ref={trackRef} className="flex w-max gap-4 px-4 will-change-transform">
+          {mobileItems.map((service, index) => (
+            <ServiceCard
+              key={`${service.slug}-${index}`}
+              service={service}
+              className={CARD_CLASS}
+              duplicate={index >= setCount}
+              priority={index < 2}
+            />
+          ))}
         </div>
       </div>
     </div>
@@ -216,7 +213,7 @@ export const ServiceCarousel = ({ services }: ServiceCarouselProps) => {
   const tickerItems = [...services, ...services];
 
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <MobileServiceCarousel services={services} />
 
       <div

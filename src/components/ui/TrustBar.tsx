@@ -75,7 +75,7 @@ export const TrustBar = () => {
 
   return (
     <section
-      className="border-y border-gray-100 bg-gray-50 py-6"
+      className="overflow-x-hidden border-y border-gray-100 bg-gray-50 py-6"
       aria-label="Why choose us"
     >
       <div ref={containerRef} className="overflow-hidden">
