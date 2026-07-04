@@ -17,8 +17,8 @@ interface MobileMenuProps {
   navLinks: NavLink[];
 }
 
-const contactBarOffset =
-  "bottom-[calc(5rem+env(safe-area-inset-bottom,0px))]";
+const contactBarPadding =
+  "pb-[calc(5rem+env(safe-area-inset-bottom,0px))]";
 
 export const MobileMenu = ({ navLinks }: MobileMenuProps) => {
   const { isMenuOpen, setIsMenuOpen } = useMobileMenu();
@@ -58,7 +58,7 @@ export const MobileMenu = ({ navLinks }: MobileMenuProps) => {
 
   const menuOverlay = (
     <div
-      className={`fixed inset-x-0 top-0 ${contactBarOffset} z-60 transition-opacity duration-300 ${
+      className={`fixed inset-0 z-60 transition-opacity duration-300 ${
         isMenuOpen
           ? "pointer-events-auto opacity-100"
           : "pointer-events-none opacity-0"
@@ -156,7 +156,7 @@ export const MobileMenu = ({ navLinks }: MobileMenuProps) => {
             </ul>
           </div>
 
-          <div className="mt-auto px-5 pb-6 pt-6">
+          <div className={`mt-auto px-5 pt-6 ${contactBarPadding}`}>
             <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
               <p className="text-sm font-medium leading-snug text-charcoal">
                 {siteConfig.tagline}
