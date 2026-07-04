@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1a1a1a;
+  --color-charcoal-light: #2d2d2d;
+  --color-gold: #E0BD62;
+  --color-gold-dark: #C4A34E;
+  --color-gold-light: #EDD48A;
+  --font-sans: var(--font-plus-jakarta), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-charcoal antialiased;
+}
+
+::selection {
+  @apply bg-gold/30 text-charcoal;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-gold;
+}
+
+@keyframes trust-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .trust-marquee-track {
+    animation: trust-marquee 35s linear infinite;
+  }
+
+  .trust-marquee-mobile {
+    animation-duration: 22s;
+  }
+}
+
+.service-ticker-mask {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 6%,
+    black 94%,
+    transparent
+  );
+}
+
+.service-ticker-track {
+  animation: service-ticker 36s linear infinite;
+  will-change: transform;
+}
+
+.service-ticker-mask:hover .service-ticker-track {
+  animation-play-state: paused;
+}
+
+@keyframes service-ticker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-ticker-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .service-ticker-track a[aria-hidden="true"] {
+    display: none;
+  }
+
+  .service-ticker-mask {
+    mask-image: none;
+    overflow: visible;
+  }
+}

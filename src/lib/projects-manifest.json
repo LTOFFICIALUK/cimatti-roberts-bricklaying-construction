@@ -1,0 +1,1951 @@
+{
+  "projects": [
+    {
+      "slug": "block-wall-stone-foundation-conwy",
+      "title": "Block Wall on Stone Foundation \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Concrete block wall on stone foundation by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/block-wall-stone-foundation-conwy/block-wall-stone-foundation-conwy-overview-01.jpg",
+        "/images/projects/block-wall-stone-foundation-conwy/block-wall-stone-foundation-conwy-detail-02.jpg",
+        "/images/projects/block-wall-stone-foundation-conwy/block-wall-stone-foundation-conwy-progress-03.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "blockwork-foundation-north-wales",
+      "title": "Blockwork Foundation \u2014 North Wales",
+      "category": "extensions",
+      "description": "Concrete block foundation walls by Cimatti & Roberts in rural North Wales",
+      "images": [
+        "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-overview-01.jpg",
+        "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-detail-02.jpg",
+        "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-progress-03.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "blockwork-garden-wall-conwy",
+      "title": "Blockwork Garden Wall \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-overview-01.jpg",
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-detail-02.jpg",
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-progress-03.jpg",
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-exterior-04.jpg",
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-interior-05.jpg",
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-foundation-06.jpg",
+        "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-blockwork-07.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "boundary-wall-coping-conwy",
+      "title": "Boundary Wall with Coping \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Boundary wall with stone coping by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/boundary-wall-coping-conwy/boundary-wall-coping-conwy-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "brick-garage-construction-conwy",
+      "title": "Brick Garage Construction \u2014 Conwy",
+      "category": "extensions",
+      "description": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-overview-01.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-detail-02.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-progress-03.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-exterior-04.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-interior-05.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-foundation-06.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-blockwork-07.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-completed-08.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-finishing-09.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-overview-10.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-detail-11.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-progress-12.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-exterior-13.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-interior-14.jpg",
+        "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-foundation-15.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "circular-stone-patio-conwy",
+      "title": "Circular Stone Patio \u2014 Conwy",
+      "category": "paving",
+      "description": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-overview-01.jpg",
+        "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-detail-02.jpg",
+        "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-progress-03.jpg",
+        "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-exterior-04.jpg",
+        "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-interior-05.jpg",
+        "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-foundation-06.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "coastal-block-extension-deganwy",
+      "title": "Coastal Block Extension \u2014 Deganwy",
+      "category": "extensions",
+      "description": "Coastal home extension blockwork by Cimatti & Roberts in Deganwy, North Wales",
+      "images": [
+        "/images/projects/coastal-block-extension-deganwy/coastal-block-extension-deganwy-overview-01.jpg",
+        "/images/projects/coastal-block-extension-deganwy/coastal-block-extension-deganwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "commercial-brick-wall-north-wales",
+      "title": "Commercial Brick Wall \u2014 North Wales",
+      "category": "bricklaying",
+      "description": "Large-scale commercial brick wall by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/commercial-brick-wall-north-wales/commercial-brick-wall-north-wales-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "company-branding",
+      "title": "Cimatti & Roberts \u2014 30 Years Experience",
+      "category": "bricklaying",
+      "description": "Cimatti & Roberts bricklaying and construction \u2014 30 years experience in North Wales",
+      "images": [
+        "/images/projects/company-branding/company-branding-overview-01.jpg"
+      ],
+      "excludeFromGallery": true
+    },
+    {
+      "slug": "concrete-base-slab-north-wales",
+      "title": "Concrete Base Slab \u2014 North Wales",
+      "category": "structural",
+      "description": "Freshly poured concrete base slab by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/concrete-base-slab-north-wales/concrete-base-slab-north-wales-overview-01.jpg",
+        "/images/projects/concrete-base-slab-north-wales/concrete-base-slab-north-wales-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "corner-sandstone-patio-conwy",
+      "title": "Corner Sandstone Patio \u2014 Conwy",
+      "category": "paving",
+      "description": "Natural stone patio in a walled garden corner by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/corner-sandstone-patio-conwy/corner-sandstone-patio-conwy-overview-01.jpg",
+        "/images/projects/corner-sandstone-patio-conwy/corner-sandstone-patio-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "courtyard-sandstone-patio-conwy",
+      "title": "Courtyard Sandstone Patio \u2014 Conwy",
+      "category": "paving",
+      "description": "Multi-toned sandstone courtyard patio by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-overview-01.jpg",
+        "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-detail-02.jpg",
+        "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-progress-03.jpg",
+        "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-exterior-04.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "decorative-brick-facing-wall",
+      "title": "Decorative Brick Facing \u2014 North Wales",
+      "category": "bricklaying",
+      "description": "Red brick facing over concrete block wall by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/decorative-brick-facing-wall/decorative-brick-facing-wall-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "decorative-brick-screen-wall-conwy",
+      "title": "Decorative Brick Screen Wall \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Red brick garden wall with decorative screen blocks by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-overview-01.jpg",
+        "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-detail-02.jpg",
+        "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-progress-03.jpg",
+        "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-exterior-04.jpg",
+        "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-interior-05.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "extension-entrance-steps-conwy",
+      "title": "Extension Entrance Steps \u2014 Conwy",
+      "category": "extensions",
+      "description": "Brick and stone entrance steps to a new home extension by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/extension-entrance-steps-conwy/extension-entrance-steps-conwy-overview-01.jpg",
+        "/images/projects/extension-entrance-steps-conwy/extension-entrance-steps-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "flagstone-steps-brick-risers",
+      "title": "Flagstone Steps with Brick Risers \u2014 Conwy",
+      "category": "paving",
+      "description": "Flagstone steps with red brick risers by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/flagstone-steps-brick-risers/flagstone-steps-brick-risers-overview-01.jpg",
+        "/images/projects/flagstone-steps-brick-risers/flagstone-steps-brick-risers-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "garden-transformation-conwy",
+      "title": "Garden Transformation \u2014 Conwy",
+      "category": "paving",
+      "description": "Sandstone patio and timber gazebo garden transformation by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-overview-01.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-detail-02.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-progress-03.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-exterior-04.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-interior-05.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-foundation-06.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-blockwork-07.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-completed-08.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-finishing-09.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-overview-10.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-detail-11.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-progress-12.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-exterior-13.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-interior-14.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-foundation-15.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-blockwork-16.jpg",
+        "/images/projects/garden-transformation-conwy/garden-transformation-conwy-completed-17.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "garden-wall-brick-pillars-conwy",
+      "title": "Garden Wall & Pillars \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Multi-toned brick garden wall and pillars by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/garden-wall-brick-pillars-conwy/garden-wall-brick-pillars-conwy-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "garden-wall-hedge-north-wales",
+      "title": "Garden Wall Construction \u2014 North Wales",
+      "category": "bricklaying",
+      "description": "New multi-toned brick garden wall by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/garden-wall-hedge-north-wales/garden-wall-hedge-north-wales-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "grey-sandstone-patio-conwy",
+      "title": "Grey Sandstone Patio \u2014 Conwy",
+      "category": "paving",
+      "description": "Grey natural stone patio slabs by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/grey-sandstone-patio-conwy/grey-sandstone-patio-conwy-overview-01.jpg",
+        "/images/projects/grey-sandstone-patio-conwy/grey-sandstone-patio-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "home-extension-pebbledash-conwy",
+      "title": "Home Extension \u2014 Conwy",
+      "category": "extensions",
+      "description": "Single-storey home extension with red brick base by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-overview-01.jpg",
+        "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-detail-02.jpg",
+        "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-progress-03.jpg",
+        "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-exterior-04.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "house-extension-insulation-conwy",
+      "title": "House Extension with Insulation \u2014 Conwy",
+      "category": "extensions",
+      "description": "Blockwork home extension with insulation boards by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/house-extension-insulation-conwy/house-extension-insulation-conwy-overview-01.jpg",
+        "/images/projects/house-extension-insulation-conwy/house-extension-insulation-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "indian-sandstone-patio-conwy",
+      "title": "Indian Sandstone Patio \u2014 Conwy",
+      "category": "paving",
+      "description": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-overview-01.jpg",
+        "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-detail-02.jpg",
+        "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-progress-03.jpg",
+        "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-exterior-04.jpg",
+        "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-interior-05.jpg",
+        "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-foundation-06.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "industrial-blockwork-wall",
+      "title": "Industrial Blockwork Wall \u2014 North Wales",
+      "category": "bricklaying",
+      "description": "Internal concrete block wall construction by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-overview-01.jpg",
+        "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-detail-02.jpg",
+        "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-progress-03.jpg",
+        "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-exterior-04.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "interior-floor-screeding-conwy",
+      "title": "Interior Floor Screeding \u2014 Conwy",
+      "category": "extensions",
+      "description": "Self-levelling floor screed during home extension by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/interior-floor-screeding-conwy/interior-floor-screeding-conwy-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "interior-plastering-stud-walls",
+      "title": "Interior Plastering & Stud Walls \u2014 North Wales",
+      "category": "extensions",
+      "description": "Fresh plaster ceiling and stud wall framing by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/interior-plastering-stud-walls/interior-plastering-stud-walls-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "modern-patio-conwy",
+      "title": "Modern Patio Installation \u2014 Conwy",
+      "category": "paving",
+      "description": "Light grey porcelain patio by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/modern-patio-conwy/modern-patio-conwy-overview-01.jpg",
+        "/images/projects/modern-patio-conwy/modern-patio-conwy-detail-02.jpg",
+        "/images/projects/modern-patio-conwy/modern-patio-conwy-progress-03.jpg",
+        "/images/projects/modern-patio-conwy/modern-patio-conwy-exterior-04.jpg",
+        "/images/projects/modern-patio-conwy/modern-patio-conwy-interior-05.jpg",
+        "/images/projects/modern-patio-conwy/modern-patio-conwy-foundation-06.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "natural-stone-patio-terrace-conwy",
+      "title": "Natural Stone Patio \u2014 Conwy Terrace",
+      "category": "paving",
+      "description": "Natural stone patio with masonry walling by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/natural-stone-patio-terrace-conwy/natural-stone-patio-terrace-conwy-overview-01.jpg",
+        "/images/projects/natural-stone-patio-terrace-conwy/natural-stone-patio-terrace-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "open-plan-kitchen-renovation-conwy",
+      "title": "Open-Plan Kitchen Renovation \u2014 Conwy",
+      "category": "structural",
+      "description": "Interior renovation and plastering by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-overview-01.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-02.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-progress-03.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-exterior-04.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-interior-05.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-foundation-06.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-blockwork-07.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-completed-08.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-finishing-09.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-overview-10.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-11.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-progress-12.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-exterior-13.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-interior-14.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-foundation-15.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-blockwork-16.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-completed-17.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-finishing-18.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-overview-19.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-20.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-progress-21.jpg",
+        "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-exterior-22.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "patio-raised-planter-conwy",
+      "title": "Patio & Raised Planter \u2014 Conwy",
+      "category": "paving",
+      "description": "Patio paving and raised planter by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-overview-01.jpg",
+        "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-detail-02.jpg",
+        "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-progress-03.jpg",
+        "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-exterior-04.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "porch-extension-foundation-conwy",
+      "title": "Porch Extension Foundation \u2014 Conwy",
+      "category": "extensions",
+      "description": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-overview-01.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-detail-02.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-progress-03.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-exterior-04.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-interior-05.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-foundation-06.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-blockwork-07.jpg",
+        "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-completed-08.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "raised-block-planter-conwy",
+      "title": "Raised Block Planter \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Raised concrete block planter by Cimatti & Roberts in a Conwy garden",
+      "images": [
+        "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-overview-01.jpg",
+        "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-detail-02.jpg",
+        "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-progress-03.jpg",
+        "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-exterior-04.jpg",
+        "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-interior-05.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "rear-home-extension-conwy",
+      "title": "Rear Home Extension \u2014 Conwy",
+      "category": "extensions",
+      "description": "Rear brick home extension by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-overview-01.jpg",
+        "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-detail-02.jpg",
+        "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-progress-03.jpg",
+        "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-exterior-04.jpg",
+        "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-interior-05.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "side-extension-blockwork-conwy",
+      "title": "Side Extension Blockwork \u2014 Conwy",
+      "category": "extensions",
+      "description": "Single-storey blockwork extension by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/side-extension-blockwork-conwy/side-extension-blockwork-conwy-overview-01.jpg",
+        "/images/projects/side-extension-blockwork-conwy/side-extension-blockwork-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "stepped-brick-boundary-wall-conwy",
+      "title": "Stepped Brick Boundary Wall \u2014 Conwy",
+      "category": "bricklaying",
+      "description": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-overview-01.jpg",
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-detail-02.jpg",
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-progress-03.jpg",
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-exterior-04.jpg",
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-interior-05.jpg",
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-foundation-06.jpg",
+        "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-blockwork-07.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "stone-chimney-repointing-north-wales",
+      "title": "Stone Chimney Repointing \u2014 North Wales",
+      "category": "repointing",
+      "description": "Stone chimney stack repointing by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-overview-01.jpg",
+        "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-detail-02.jpg",
+        "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-progress-03.jpg",
+        "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-exterior-04.jpg",
+        "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-interior-05.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "stone-patio-rendered-planter-conwy",
+      "title": "Stone Patio & Rendered Planter \u2014 Conwy",
+      "category": "paving",
+      "description": "Natural stone patio and rendered raised planter by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/stone-patio-rendered-planter-conwy/stone-patio-rendered-planter-conwy-overview-01.jpg",
+        "/images/projects/stone-patio-rendered-planter-conwy/stone-patio-rendered-planter-conwy-detail-02.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "stone-steps-rendered-north-wales",
+      "title": "Stone Steps with Rendered Risers \u2014 North Wales",
+      "category": "paving",
+      "description": "Natural stone steps with rendered risers by Cimatti & Roberts in North Wales",
+      "images": [
+        "/images/projects/stone-steps-rendered-north-wales/stone-steps-rendered-north-wales-overview-01.jpg",
+        "/images/projects/stone-steps-rendered-north-wales/stone-steps-rendered-north-wales-detail-02.jpg",
+        "/images/projects/stone-steps-rendered-north-wales/stone-steps-rendered-north-wales-progress-03.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "timber-fence-concrete-posts-conwy",
+      "title": "Timber Fence with Concrete Posts \u2014 Conwy",
+      "category": "structural",
+      "description": "Timber fence with concrete posts by Cimatti & Roberts in Conwy",
+      "images": [
+        "/images/projects/timber-fence-concrete-posts-conwy/timber-fence-concrete-posts-conwy-overview-01.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "timber-partition-bedroom-conwy",
+      "title": "Timber Partition Wall \u2014 Conwy",
+      "category": "structural",
+      "description": "Custom timber partition wall by Cimatti & Roberts in a Conwy home",
+      "images": [
+        "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-overview-01.jpg",
+        "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-detail-02.jpg",
+        "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-progress-03.jpg"
+      ],
+      "excludeFromGallery": false
+    },
+    {
+      "slug": "window-lintel-installation-conwy",
+      "title": "Window Lintel Installation \u2014 Conwy",
+      "category": "structural",
+      "description": "Structural concrete lintel and window opening by Cimatti & Roberts in Conwy, North Wales",
+      "images": [
+        "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-overview-01.jpg",
+        "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-detail-02.jpg",
+        "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-progress-03.jpg",
+        "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-exterior-04.jpg",
+        "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-interior-05.jpg"
+      ],
+      "excludeFromGallery": false
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": "coastal-block-extension-deganwy-01",
+      "src": "/images/projects/coastal-block-extension-deganwy/coastal-block-extension-deganwy-overview-01.jpg",
+      "alt": "Coastal home extension blockwork by Cimatti & Roberts in Deganwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "coastal-block-extension-deganwy",
+      "projectTitle": "Coastal Block Extension \u2014 Deganwy"
+    },
+    {
+      "id": "coastal-block-extension-deganwy-02",
+      "src": "/images/projects/coastal-block-extension-deganwy/coastal-block-extension-deganwy-detail-02.jpg",
+      "alt": "Coastal home extension blockwork by Cimatti & Roberts in Deganwy, North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "coastal-block-extension-deganwy",
+      "projectTitle": "Coastal Block Extension \u2014 Deganwy"
+    },
+    {
+      "id": "extension-entrance-steps-conwy-01",
+      "src": "/images/projects/extension-entrance-steps-conwy/extension-entrance-steps-conwy-overview-01.jpg",
+      "alt": "Brick and stone entrance steps to a new home extension by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "extension-entrance-steps-conwy",
+      "projectTitle": "Extension Entrance Steps \u2014 Conwy"
+    },
+    {
+      "id": "extension-entrance-steps-conwy-02",
+      "src": "/images/projects/extension-entrance-steps-conwy/extension-entrance-steps-conwy-detail-02.jpg",
+      "alt": "Brick and stone entrance steps to a new home extension by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "extension-entrance-steps-conwy",
+      "projectTitle": "Extension Entrance Steps \u2014 Conwy"
+    },
+    {
+      "id": "garden-wall-brick-pillars-conwy-01",
+      "src": "/images/projects/garden-wall-brick-pillars-conwy/garden-wall-brick-pillars-conwy-overview-01.jpg",
+      "alt": "Multi-toned brick garden wall and pillars by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "garden-wall-brick-pillars-conwy",
+      "projectTitle": "Garden Wall & Pillars \u2014 Conwy"
+    },
+    {
+      "id": "decorative-brick-facing-wall-01",
+      "src": "/images/projects/decorative-brick-facing-wall/decorative-brick-facing-wall-overview-01.jpg",
+      "alt": "Red brick facing over concrete block wall by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "decorative-brick-facing-wall",
+      "projectTitle": "Decorative Brick Facing \u2014 North Wales"
+    },
+    {
+      "id": "garden-wall-hedge-north-wales-01",
+      "src": "/images/projects/garden-wall-hedge-north-wales/garden-wall-hedge-north-wales-overview-01.jpg",
+      "alt": "New multi-toned brick garden wall by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "garden-wall-hedge-north-wales",
+      "projectTitle": "Garden Wall Construction \u2014 North Wales"
+    },
+    {
+      "id": "timber-partition-bedroom-conwy-01",
+      "src": "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-overview-01.jpg",
+      "alt": "Custom timber partition wall by Cimatti & Roberts in a Conwy home \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "timber-partition-bedroom-conwy",
+      "projectTitle": "Timber Partition Wall \u2014 Conwy"
+    },
+    {
+      "id": "interior-floor-screeding-conwy-01",
+      "src": "/images/projects/interior-floor-screeding-conwy/interior-floor-screeding-conwy-overview-01.jpg",
+      "alt": "Self-levelling floor screed during home extension by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "interior-floor-screeding-conwy",
+      "projectTitle": "Interior Floor Screeding \u2014 Conwy"
+    },
+    {
+      "id": "timber-partition-bedroom-conwy-02",
+      "src": "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-detail-02.jpg",
+      "alt": "Custom timber partition wall by Cimatti & Roberts in a Conwy home \u2014 detail view",
+      "category": "structural",
+      "projectSlug": "timber-partition-bedroom-conwy",
+      "projectTitle": "Timber Partition Wall \u2014 Conwy"
+    },
+    {
+      "id": "timber-partition-bedroom-conwy-03",
+      "src": "/images/projects/timber-partition-bedroom-conwy/timber-partition-bedroom-conwy-progress-03.jpg",
+      "alt": "Custom timber partition wall by Cimatti & Roberts in a Conwy home \u2014 progress view",
+      "category": "structural",
+      "projectSlug": "timber-partition-bedroom-conwy",
+      "projectTitle": "Timber Partition Wall \u2014 Conwy"
+    },
+    {
+      "id": "interior-plastering-stud-walls-01",
+      "src": "/images/projects/interior-plastering-stud-walls/interior-plastering-stud-walls-overview-01.jpg",
+      "alt": "Fresh plaster ceiling and stud wall framing by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "interior-plastering-stud-walls",
+      "projectTitle": "Interior Plastering & Stud Walls \u2014 North Wales"
+    },
+    {
+      "id": "blockwork-foundation-north-wales-01",
+      "src": "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-overview-01.jpg",
+      "alt": "Concrete block foundation walls by Cimatti & Roberts in rural North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "blockwork-foundation-north-wales",
+      "projectTitle": "Blockwork Foundation \u2014 North Wales"
+    },
+    {
+      "id": "rear-home-extension-conwy-01",
+      "src": "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-overview-01.jpg",
+      "alt": "Rear brick home extension by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "rear-home-extension-conwy",
+      "projectTitle": "Rear Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "house-extension-insulation-conwy-01",
+      "src": "/images/projects/house-extension-insulation-conwy/house-extension-insulation-conwy-overview-01.jpg",
+      "alt": "Blockwork home extension with insulation boards by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "house-extension-insulation-conwy",
+      "projectTitle": "House Extension with Insulation \u2014 Conwy"
+    },
+    {
+      "id": "house-extension-insulation-conwy-02",
+      "src": "/images/projects/house-extension-insulation-conwy/house-extension-insulation-conwy-detail-02.jpg",
+      "alt": "Blockwork home extension with insulation boards by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "house-extension-insulation-conwy",
+      "projectTitle": "House Extension with Insulation \u2014 Conwy"
+    },
+    {
+      "id": "blockwork-foundation-north-wales-02",
+      "src": "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-detail-02.jpg",
+      "alt": "Concrete block foundation walls by Cimatti & Roberts in rural North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "blockwork-foundation-north-wales",
+      "projectTitle": "Blockwork Foundation \u2014 North Wales"
+    },
+    {
+      "id": "blockwork-foundation-north-wales-03",
+      "src": "/images/projects/blockwork-foundation-north-wales/blockwork-foundation-north-wales-progress-03.jpg",
+      "alt": "Concrete block foundation walls by Cimatti & Roberts in rural North Wales \u2014 progress view",
+      "category": "extensions",
+      "projectSlug": "blockwork-foundation-north-wales",
+      "projectTitle": "Blockwork Foundation \u2014 North Wales"
+    },
+    {
+      "id": "flagstone-steps-brick-risers-01",
+      "src": "/images/projects/flagstone-steps-brick-risers/flagstone-steps-brick-risers-overview-01.jpg",
+      "alt": "Flagstone steps with red brick risers by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "flagstone-steps-brick-risers",
+      "projectTitle": "Flagstone Steps with Brick Risers \u2014 Conwy"
+    },
+    {
+      "id": "flagstone-steps-brick-risers-02",
+      "src": "/images/projects/flagstone-steps-brick-risers/flagstone-steps-brick-risers-detail-02.jpg",
+      "alt": "Flagstone steps with red brick risers by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "flagstone-steps-brick-risers",
+      "projectTitle": "Flagstone Steps with Brick Risers \u2014 Conwy"
+    },
+    {
+      "id": "stone-patio-rendered-planter-conwy-01",
+      "src": "/images/projects/stone-patio-rendered-planter-conwy/stone-patio-rendered-planter-conwy-overview-01.jpg",
+      "alt": "Natural stone patio and rendered raised planter by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "stone-patio-rendered-planter-conwy",
+      "projectTitle": "Stone Patio & Rendered Planter \u2014 Conwy"
+    },
+    {
+      "id": "stone-patio-rendered-planter-conwy-02",
+      "src": "/images/projects/stone-patio-rendered-planter-conwy/stone-patio-rendered-planter-conwy-detail-02.jpg",
+      "alt": "Natural stone patio and rendered raised planter by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "stone-patio-rendered-planter-conwy",
+      "projectTitle": "Stone Patio & Rendered Planter \u2014 Conwy"
+    },
+    {
+      "id": "boundary-wall-coping-conwy-01",
+      "src": "/images/projects/boundary-wall-coping-conwy/boundary-wall-coping-conwy-overview-01.jpg",
+      "alt": "Boundary wall with stone coping by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "boundary-wall-coping-conwy",
+      "projectTitle": "Boundary Wall with Coping \u2014 Conwy"
+    },
+    {
+      "id": "stone-steps-rendered-north-wales-01",
+      "src": "/images/projects/stone-steps-rendered-north-wales/stone-steps-rendered-north-wales-overview-01.jpg",
+      "alt": "Natural stone steps with rendered risers by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "stone-steps-rendered-north-wales",
+      "projectTitle": "Stone Steps with Rendered Risers \u2014 North Wales"
+    },
+    {
+      "id": "stone-steps-rendered-north-wales-02",
+      "src": "/images/projects/stone-steps-rendered-north-wales/stone-steps-rendered-north-wales-detail-02.jpg",
+      "alt": "Natural stone steps with rendered risers by Cimatti & Roberts in North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "stone-steps-rendered-north-wales",
+      "projectTitle": "Stone Steps with Rendered Risers \u2014 North Wales"
+    },
+    {
+      "id": "stone-steps-rendered-north-wales-03",
+      "src": "/images/projects/stone-steps-rendered-north-wales/stone-steps-rendered-north-wales-progress-03.jpg",
+      "alt": "Natural stone steps with rendered risers by Cimatti & Roberts in North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "stone-steps-rendered-north-wales",
+      "projectTitle": "Stone Steps with Rendered Risers \u2014 North Wales"
+    },
+    {
+      "id": "decorative-brick-screen-wall-conwy-01",
+      "src": "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-overview-01.jpg",
+      "alt": "Red brick garden wall with decorative screen blocks by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "decorative-brick-screen-wall-conwy",
+      "projectTitle": "Decorative Brick Screen Wall \u2014 Conwy"
+    },
+    {
+      "id": "grey-sandstone-patio-conwy-01",
+      "src": "/images/projects/grey-sandstone-patio-conwy/grey-sandstone-patio-conwy-overview-01.jpg",
+      "alt": "Grey natural stone patio slabs by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "grey-sandstone-patio-conwy",
+      "projectTitle": "Grey Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "concrete-base-slab-north-wales-01",
+      "src": "/images/projects/concrete-base-slab-north-wales/concrete-base-slab-north-wales-overview-01.jpg",
+      "alt": "Freshly poured concrete base slab by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "concrete-base-slab-north-wales",
+      "projectTitle": "Concrete Base Slab \u2014 North Wales"
+    },
+    {
+      "id": "decorative-brick-screen-wall-conwy-02",
+      "src": "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-detail-02.jpg",
+      "alt": "Red brick garden wall with decorative screen blocks by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "bricklaying",
+      "projectSlug": "decorative-brick-screen-wall-conwy",
+      "projectTitle": "Decorative Brick Screen Wall \u2014 Conwy"
+    },
+    {
+      "id": "decorative-brick-screen-wall-conwy-03",
+      "src": "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-progress-03.jpg",
+      "alt": "Red brick garden wall with decorative screen blocks by Cimatti & Roberts in Conwy \u2014 progress view",
+      "category": "bricklaying",
+      "projectSlug": "decorative-brick-screen-wall-conwy",
+      "projectTitle": "Decorative Brick Screen Wall \u2014 Conwy"
+    },
+    {
+      "id": "concrete-base-slab-north-wales-02",
+      "src": "/images/projects/concrete-base-slab-north-wales/concrete-base-slab-north-wales-detail-02.jpg",
+      "alt": "Freshly poured concrete base slab by Cimatti & Roberts in North Wales \u2014 detail view",
+      "category": "structural",
+      "projectSlug": "concrete-base-slab-north-wales",
+      "projectTitle": "Concrete Base Slab \u2014 North Wales"
+    },
+    {
+      "id": "decorative-brick-screen-wall-conwy-04",
+      "src": "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-exterior-04.jpg",
+      "alt": "Red brick garden wall with decorative screen blocks by Cimatti & Roberts in Conwy \u2014 exterior view",
+      "category": "bricklaying",
+      "projectSlug": "decorative-brick-screen-wall-conwy",
+      "projectTitle": "Decorative Brick Screen Wall \u2014 Conwy"
+    },
+    {
+      "id": "grey-sandstone-patio-conwy-02",
+      "src": "/images/projects/grey-sandstone-patio-conwy/grey-sandstone-patio-conwy-detail-02.jpg",
+      "alt": "Grey natural stone patio slabs by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "grey-sandstone-patio-conwy",
+      "projectTitle": "Grey Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-01",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-overview-01.jpg",
+      "alt": "Sandstone patio and timber gazebo garden transformation by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "industrial-blockwork-wall-01",
+      "src": "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-overview-01.jpg",
+      "alt": "Internal concrete block wall construction by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "industrial-blockwork-wall",
+      "projectTitle": "Industrial Blockwork Wall \u2014 North Wales"
+    },
+    {
+      "id": "decorative-brick-screen-wall-conwy-05",
+      "src": "/images/projects/decorative-brick-screen-wall-conwy/decorative-brick-screen-wall-conwy-interior-05.jpg",
+      "alt": "Red brick garden wall with decorative screen blocks by Cimatti & Roberts in Conwy \u2014 interior view",
+      "category": "bricklaying",
+      "projectSlug": "decorative-brick-screen-wall-conwy",
+      "projectTitle": "Decorative Brick Screen Wall \u2014 Conwy"
+    },
+    {
+      "id": "industrial-blockwork-wall-02",
+      "src": "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-detail-02.jpg",
+      "alt": "Internal concrete block wall construction by Cimatti & Roberts in North Wales \u2014 detail view",
+      "category": "bricklaying",
+      "projectSlug": "industrial-blockwork-wall",
+      "projectTitle": "Industrial Blockwork Wall \u2014 North Wales"
+    },
+    {
+      "id": "industrial-blockwork-wall-03",
+      "src": "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-progress-03.jpg",
+      "alt": "Internal concrete block wall construction by Cimatti & Roberts in North Wales \u2014 progress view",
+      "category": "bricklaying",
+      "projectSlug": "industrial-blockwork-wall",
+      "projectTitle": "Industrial Blockwork Wall \u2014 North Wales"
+    },
+    {
+      "id": "industrial-blockwork-wall-04",
+      "src": "/images/projects/industrial-blockwork-wall/industrial-blockwork-wall-exterior-04.jpg",
+      "alt": "Internal concrete block wall construction by Cimatti & Roberts in North Wales \u2014 exterior view",
+      "category": "bricklaying",
+      "projectSlug": "industrial-blockwork-wall",
+      "projectTitle": "Industrial Blockwork Wall \u2014 North Wales"
+    },
+    {
+      "id": "commercial-brick-wall-north-wales-01",
+      "src": "/images/projects/commercial-brick-wall-north-wales/commercial-brick-wall-north-wales-overview-01.jpg",
+      "alt": "Large-scale commercial brick wall by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "commercial-brick-wall-north-wales",
+      "projectTitle": "Commercial Brick Wall \u2014 North Wales"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-01",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-overview-01.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-02",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-detail-02.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-03",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-progress-03.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 progress view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-04",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-exterior-04.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 exterior view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-05",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-interior-05.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 interior view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "stone-chimney-repointing-north-wales-01",
+      "src": "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-overview-01.jpg",
+      "alt": "Stone chimney stack repointing by Cimatti & Roberts in North Wales \u2014 overview view",
+      "category": "repointing",
+      "projectSlug": "stone-chimney-repointing-north-wales",
+      "projectTitle": "Stone Chimney Repointing \u2014 North Wales"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-06",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-foundation-06.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 foundation view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "stone-chimney-repointing-north-wales-02",
+      "src": "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-detail-02.jpg",
+      "alt": "Stone chimney stack repointing by Cimatti & Roberts in North Wales \u2014 detail view",
+      "category": "repointing",
+      "projectSlug": "stone-chimney-repointing-north-wales",
+      "projectTitle": "Stone Chimney Repointing \u2014 North Wales"
+    },
+    {
+      "id": "blockwork-garden-wall-conwy-07",
+      "src": "/images/projects/blockwork-garden-wall-conwy/blockwork-garden-wall-conwy-blockwork-07.jpg",
+      "alt": "Grey blockwork garden wall with brick coping by Cimatti & Roberts in Conwy \u2014 blockwork view",
+      "category": "bricklaying",
+      "projectSlug": "blockwork-garden-wall-conwy",
+      "projectTitle": "Blockwork Garden Wall \u2014 Conwy"
+    },
+    {
+      "id": "stone-chimney-repointing-north-wales-03",
+      "src": "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-progress-03.jpg",
+      "alt": "Stone chimney stack repointing by Cimatti & Roberts in North Wales \u2014 progress view",
+      "category": "repointing",
+      "projectSlug": "stone-chimney-repointing-north-wales",
+      "projectTitle": "Stone Chimney Repointing \u2014 North Wales"
+    },
+    {
+      "id": "stone-chimney-repointing-north-wales-04",
+      "src": "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-exterior-04.jpg",
+      "alt": "Stone chimney stack repointing by Cimatti & Roberts in North Wales \u2014 exterior view",
+      "category": "repointing",
+      "projectSlug": "stone-chimney-repointing-north-wales",
+      "projectTitle": "Stone Chimney Repointing \u2014 North Wales"
+    },
+    {
+      "id": "stone-chimney-repointing-north-wales-05",
+      "src": "/images/projects/stone-chimney-repointing-north-wales/stone-chimney-repointing-north-wales-interior-05.jpg",
+      "alt": "Stone chimney stack repointing by Cimatti & Roberts in North Wales \u2014 interior view",
+      "category": "repointing",
+      "projectSlug": "stone-chimney-repointing-north-wales",
+      "projectTitle": "Stone Chimney Repointing \u2014 North Wales"
+    },
+    {
+      "id": "circular-stone-patio-conwy-01",
+      "src": "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-overview-01.jpg",
+      "alt": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "circular-stone-patio-conwy",
+      "projectTitle": "Circular Stone Patio \u2014 Conwy"
+    },
+    {
+      "id": "circular-stone-patio-conwy-02",
+      "src": "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-detail-02.jpg",
+      "alt": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "circular-stone-patio-conwy",
+      "projectTitle": "Circular Stone Patio \u2014 Conwy"
+    },
+    {
+      "id": "circular-stone-patio-conwy-03",
+      "src": "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-progress-03.jpg",
+      "alt": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "circular-stone-patio-conwy",
+      "projectTitle": "Circular Stone Patio \u2014 Conwy"
+    },
+    {
+      "id": "circular-stone-patio-conwy-04",
+      "src": "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-exterior-04.jpg",
+      "alt": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "circular-stone-patio-conwy",
+      "projectTitle": "Circular Stone Patio \u2014 Conwy"
+    },
+    {
+      "id": "circular-stone-patio-conwy-05",
+      "src": "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-interior-05.jpg",
+      "alt": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "paving",
+      "projectSlug": "circular-stone-patio-conwy",
+      "projectTitle": "Circular Stone Patio \u2014 Conwy"
+    },
+    {
+      "id": "circular-stone-patio-conwy-06",
+      "src": "/images/projects/circular-stone-patio-conwy/circular-stone-patio-conwy-foundation-06.jpg",
+      "alt": "Decorative circular stone patio by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "paving",
+      "projectSlug": "circular-stone-patio-conwy",
+      "projectTitle": "Circular Stone Patio \u2014 Conwy"
+    },
+    {
+      "id": "block-wall-stone-foundation-conwy-01",
+      "src": "/images/projects/block-wall-stone-foundation-conwy/block-wall-stone-foundation-conwy-overview-01.jpg",
+      "alt": "Concrete block wall on stone foundation by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "block-wall-stone-foundation-conwy",
+      "projectTitle": "Block Wall on Stone Foundation \u2014 Conwy"
+    },
+    {
+      "id": "block-wall-stone-foundation-conwy-02",
+      "src": "/images/projects/block-wall-stone-foundation-conwy/block-wall-stone-foundation-conwy-detail-02.jpg",
+      "alt": "Concrete block wall on stone foundation by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "bricklaying",
+      "projectSlug": "block-wall-stone-foundation-conwy",
+      "projectTitle": "Block Wall on Stone Foundation \u2014 Conwy"
+    },
+    {
+      "id": "block-wall-stone-foundation-conwy-03",
+      "src": "/images/projects/block-wall-stone-foundation-conwy/block-wall-stone-foundation-conwy-progress-03.jpg",
+      "alt": "Concrete block wall on stone foundation by Cimatti & Roberts in Conwy \u2014 progress view",
+      "category": "bricklaying",
+      "projectSlug": "block-wall-stone-foundation-conwy",
+      "projectTitle": "Block Wall on Stone Foundation \u2014 Conwy"
+    },
+    {
+      "id": "side-extension-blockwork-conwy-01",
+      "src": "/images/projects/side-extension-blockwork-conwy/side-extension-blockwork-conwy-overview-01.jpg",
+      "alt": "Single-storey blockwork extension by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "side-extension-blockwork-conwy",
+      "projectTitle": "Side Extension Blockwork \u2014 Conwy"
+    },
+    {
+      "id": "side-extension-blockwork-conwy-02",
+      "src": "/images/projects/side-extension-blockwork-conwy/side-extension-blockwork-conwy-detail-02.jpg",
+      "alt": "Single-storey blockwork extension by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "side-extension-blockwork-conwy",
+      "projectTitle": "Side Extension Blockwork \u2014 Conwy"
+    },
+    {
+      "id": "natural-stone-patio-terrace-conwy-01",
+      "src": "/images/projects/natural-stone-patio-terrace-conwy/natural-stone-patio-terrace-conwy-overview-01.jpg",
+      "alt": "Natural stone patio with masonry walling by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "natural-stone-patio-terrace-conwy",
+      "projectTitle": "Natural Stone Patio \u2014 Conwy Terrace"
+    },
+    {
+      "id": "courtyard-sandstone-patio-conwy-01",
+      "src": "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-overview-01.jpg",
+      "alt": "Multi-toned sandstone courtyard patio by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "courtyard-sandstone-patio-conwy",
+      "projectTitle": "Courtyard Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "natural-stone-patio-terrace-conwy-02",
+      "src": "/images/projects/natural-stone-patio-terrace-conwy/natural-stone-patio-terrace-conwy-detail-02.jpg",
+      "alt": "Natural stone patio with masonry walling by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "natural-stone-patio-terrace-conwy",
+      "projectTitle": "Natural Stone Patio \u2014 Conwy Terrace"
+    },
+    {
+      "id": "courtyard-sandstone-patio-conwy-02",
+      "src": "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-detail-02.jpg",
+      "alt": "Multi-toned sandstone courtyard patio by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "courtyard-sandstone-patio-conwy",
+      "projectTitle": "Courtyard Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "courtyard-sandstone-patio-conwy-03",
+      "src": "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-progress-03.jpg",
+      "alt": "Multi-toned sandstone courtyard patio by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "courtyard-sandstone-patio-conwy",
+      "projectTitle": "Courtyard Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "courtyard-sandstone-patio-conwy-04",
+      "src": "/images/projects/courtyard-sandstone-patio-conwy/courtyard-sandstone-patio-conwy-exterior-04.jpg",
+      "alt": "Multi-toned sandstone courtyard patio by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "courtyard-sandstone-patio-conwy",
+      "projectTitle": "Courtyard Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "indian-sandstone-patio-conwy-01",
+      "src": "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-overview-01.jpg",
+      "alt": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "indian-sandstone-patio-conwy",
+      "projectTitle": "Indian Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "indian-sandstone-patio-conwy-02",
+      "src": "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-detail-02.jpg",
+      "alt": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "indian-sandstone-patio-conwy",
+      "projectTitle": "Indian Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "indian-sandstone-patio-conwy-03",
+      "src": "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-progress-03.jpg",
+      "alt": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "indian-sandstone-patio-conwy",
+      "projectTitle": "Indian Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "indian-sandstone-patio-conwy-04",
+      "src": "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-exterior-04.jpg",
+      "alt": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "indian-sandstone-patio-conwy",
+      "projectTitle": "Indian Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "indian-sandstone-patio-conwy-05",
+      "src": "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-interior-05.jpg",
+      "alt": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "paving",
+      "projectSlug": "indian-sandstone-patio-conwy",
+      "projectTitle": "Indian Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "indian-sandstone-patio-conwy-06",
+      "src": "/images/projects/indian-sandstone-patio-conwy/indian-sandstone-patio-conwy-foundation-06.jpg",
+      "alt": "Indian sandstone patio with circular feature by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "paving",
+      "projectSlug": "indian-sandstone-patio-conwy",
+      "projectTitle": "Indian Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-02",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-detail-02.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-03",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-progress-03.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-04",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-exterior-04.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-05",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-interior-05.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-06",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-foundation-06.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-07",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-blockwork-07.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 blockwork view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-08",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-completed-08.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 completed view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-09",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-finishing-09.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 finishing view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-10",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-overview-10.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-11",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-detail-11.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-12",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-progress-12.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-13",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-exterior-13.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-14",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-interior-14.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-15",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-foundation-15.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-16",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-blockwork-16.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 blockwork view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "garden-transformation-conwy-17",
+      "src": "/images/projects/garden-transformation-conwy/garden-transformation-conwy-completed-17.jpg",
+      "alt": "Back garden before patio transformation by Cimatti & Roberts in Conwy, North Wales \u2014 completed view",
+      "category": "paving",
+      "projectSlug": "garden-transformation-conwy",
+      "projectTitle": "Garden Transformation \u2014 Conwy"
+    },
+    {
+      "id": "window-lintel-installation-conwy-01",
+      "src": "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-overview-01.jpg",
+      "alt": "Structural concrete lintel and window opening by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "window-lintel-installation-conwy",
+      "projectTitle": "Window Lintel Installation \u2014 Conwy"
+    },
+    {
+      "id": "window-lintel-installation-conwy-02",
+      "src": "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-detail-02.jpg",
+      "alt": "Structural concrete lintel and window opening by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "structural",
+      "projectSlug": "window-lintel-installation-conwy",
+      "projectTitle": "Window Lintel Installation \u2014 Conwy"
+    },
+    {
+      "id": "window-lintel-installation-conwy-03",
+      "src": "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-progress-03.jpg",
+      "alt": "Structural concrete lintel and window opening by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "structural",
+      "projectSlug": "window-lintel-installation-conwy",
+      "projectTitle": "Window Lintel Installation \u2014 Conwy"
+    },
+    {
+      "id": "window-lintel-installation-conwy-04",
+      "src": "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-exterior-04.jpg",
+      "alt": "Structural concrete lintel and window opening by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "structural",
+      "projectSlug": "window-lintel-installation-conwy",
+      "projectTitle": "Window Lintel Installation \u2014 Conwy"
+    },
+    {
+      "id": "window-lintel-installation-conwy-05",
+      "src": "/images/projects/window-lintel-installation-conwy/window-lintel-installation-conwy-interior-05.jpg",
+      "alt": "Structural concrete lintel and window opening by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "structural",
+      "projectSlug": "window-lintel-installation-conwy",
+      "projectTitle": "Window Lintel Installation \u2014 Conwy"
+    },
+    {
+      "id": "corner-sandstone-patio-conwy-01",
+      "src": "/images/projects/corner-sandstone-patio-conwy/corner-sandstone-patio-conwy-overview-01.jpg",
+      "alt": "Natural stone patio in a walled garden corner by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "corner-sandstone-patio-conwy",
+      "projectTitle": "Corner Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "corner-sandstone-patio-conwy-02",
+      "src": "/images/projects/corner-sandstone-patio-conwy/corner-sandstone-patio-conwy-detail-02.jpg",
+      "alt": "Natural stone patio in a walled garden corner by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "corner-sandstone-patio-conwy",
+      "projectTitle": "Corner Sandstone Patio \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-01",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-overview-01.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-02",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-detail-02.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-03",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-progress-03.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-04",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-exterior-04.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-05",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-interior-05.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-06",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-foundation-06.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "stepped-brick-boundary-wall-conwy-07",
+      "src": "/images/projects/stepped-brick-boundary-wall-conwy/stepped-brick-boundary-wall-conwy-blockwork-07.jpg",
+      "alt": "Stepped red brick boundary wall by Cimatti & Roberts in Conwy, North Wales \u2014 blockwork view",
+      "category": "bricklaying",
+      "projectSlug": "stepped-brick-boundary-wall-conwy",
+      "projectTitle": "Stepped Brick Boundary Wall \u2014 Conwy"
+    },
+    {
+      "id": "rear-home-extension-conwy-02",
+      "src": "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-detail-02.jpg",
+      "alt": "Rear brick home extension progress by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "rear-home-extension-conwy",
+      "projectTitle": "Rear Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "rear-home-extension-conwy-03",
+      "src": "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-progress-03.jpg",
+      "alt": "Rear brick home extension progress by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "extensions",
+      "projectSlug": "rear-home-extension-conwy",
+      "projectTitle": "Rear Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "rear-home-extension-conwy-04",
+      "src": "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-exterior-04.jpg",
+      "alt": "Rear brick home extension progress by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "extensions",
+      "projectSlug": "rear-home-extension-conwy",
+      "projectTitle": "Rear Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "rear-home-extension-conwy-05",
+      "src": "/images/projects/rear-home-extension-conwy/rear-home-extension-conwy-interior-05.jpg",
+      "alt": "Rear brick home extension progress by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "extensions",
+      "projectSlug": "rear-home-extension-conwy",
+      "projectTitle": "Rear Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "raised-block-planter-conwy-01",
+      "src": "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-overview-01.jpg",
+      "alt": "Raised concrete block planter by Cimatti & Roberts in a Conwy garden \u2014 overview view",
+      "category": "bricklaying",
+      "projectSlug": "raised-block-planter-conwy",
+      "projectTitle": "Raised Block Planter \u2014 Conwy"
+    },
+    {
+      "id": "raised-block-planter-conwy-02",
+      "src": "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-detail-02.jpg",
+      "alt": "Raised concrete block planter by Cimatti & Roberts in a Conwy garden \u2014 detail view",
+      "category": "bricklaying",
+      "projectSlug": "raised-block-planter-conwy",
+      "projectTitle": "Raised Block Planter \u2014 Conwy"
+    },
+    {
+      "id": "raised-block-planter-conwy-03",
+      "src": "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-progress-03.jpg",
+      "alt": "Raised concrete block planter by Cimatti & Roberts in a Conwy garden \u2014 progress view",
+      "category": "bricklaying",
+      "projectSlug": "raised-block-planter-conwy",
+      "projectTitle": "Raised Block Planter \u2014 Conwy"
+    },
+    {
+      "id": "raised-block-planter-conwy-04",
+      "src": "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-exterior-04.jpg",
+      "alt": "Raised concrete block planter by Cimatti & Roberts in a Conwy garden \u2014 exterior view",
+      "category": "bricklaying",
+      "projectSlug": "raised-block-planter-conwy",
+      "projectTitle": "Raised Block Planter \u2014 Conwy"
+    },
+    {
+      "id": "raised-block-planter-conwy-05",
+      "src": "/images/projects/raised-block-planter-conwy/raised-block-planter-conwy-interior-05.jpg",
+      "alt": "Raised concrete block planter by Cimatti & Roberts in a Conwy garden \u2014 interior view",
+      "category": "bricklaying",
+      "projectSlug": "raised-block-planter-conwy",
+      "projectTitle": "Raised Block Planter \u2014 Conwy"
+    },
+    {
+      "id": "modern-patio-conwy-01",
+      "src": "/images/projects/modern-patio-conwy/modern-patio-conwy-overview-01.jpg",
+      "alt": "Light grey porcelain patio by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "modern-patio-conwy",
+      "projectTitle": "Modern Patio Installation \u2014 Conwy"
+    },
+    {
+      "id": "modern-patio-conwy-02",
+      "src": "/images/projects/modern-patio-conwy/modern-patio-conwy-detail-02.jpg",
+      "alt": "Light grey porcelain patio by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "modern-patio-conwy",
+      "projectTitle": "Modern Patio Installation \u2014 Conwy"
+    },
+    {
+      "id": "modern-patio-conwy-03",
+      "src": "/images/projects/modern-patio-conwy/modern-patio-conwy-progress-03.jpg",
+      "alt": "Light grey porcelain patio by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "modern-patio-conwy",
+      "projectTitle": "Modern Patio Installation \u2014 Conwy"
+    },
+    {
+      "id": "timber-fence-concrete-posts-conwy-01",
+      "src": "/images/projects/timber-fence-concrete-posts-conwy/timber-fence-concrete-posts-conwy-overview-01.jpg",
+      "alt": "Timber fence with concrete posts by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "timber-fence-concrete-posts-conwy",
+      "projectTitle": "Timber Fence with Concrete Posts \u2014 Conwy"
+    },
+    {
+      "id": "modern-patio-conwy-04",
+      "src": "/images/projects/modern-patio-conwy/modern-patio-conwy-exterior-04.jpg",
+      "alt": "Light grey porcelain patio by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "modern-patio-conwy",
+      "projectTitle": "Modern Patio Installation \u2014 Conwy"
+    },
+    {
+      "id": "modern-patio-conwy-05",
+      "src": "/images/projects/modern-patio-conwy/modern-patio-conwy-interior-05.jpg",
+      "alt": "Completed light grey patio by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "paving",
+      "projectSlug": "modern-patio-conwy",
+      "projectTitle": "Modern Patio Installation \u2014 Conwy"
+    },
+    {
+      "id": "modern-patio-conwy-06",
+      "src": "/images/projects/modern-patio-conwy/modern-patio-conwy-foundation-06.jpg",
+      "alt": "Completed light grey patio by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "paving",
+      "projectSlug": "modern-patio-conwy",
+      "projectTitle": "Modern Patio Installation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-01",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-overview-01.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-02",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-detail-02.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-03",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-progress-03.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 progress view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-04",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-exterior-04.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 exterior view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-05",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-interior-05.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 interior view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-06",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-foundation-06.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 foundation view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-07",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-blockwork-07.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 blockwork view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "porch-extension-foundation-conwy-08",
+      "src": "/images/projects/porch-extension-foundation-conwy/porch-extension-foundation-conwy-completed-08.jpg",
+      "alt": "Brick and block porch extension foundation by Cimatti & Roberts in Conwy \u2014 completed view",
+      "category": "extensions",
+      "projectSlug": "porch-extension-foundation-conwy",
+      "projectTitle": "Porch Extension Foundation \u2014 Conwy"
+    },
+    {
+      "id": "patio-raised-planter-conwy-01",
+      "src": "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-overview-01.jpg",
+      "alt": "Patio paving and raised planter by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "paving",
+      "projectSlug": "patio-raised-planter-conwy",
+      "projectTitle": "Patio & Raised Planter \u2014 Conwy"
+    },
+    {
+      "id": "patio-raised-planter-conwy-02",
+      "src": "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-detail-02.jpg",
+      "alt": "Patio paving and raised planter by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "paving",
+      "projectSlug": "patio-raised-planter-conwy",
+      "projectTitle": "Patio & Raised Planter \u2014 Conwy"
+    },
+    {
+      "id": "patio-raised-planter-conwy-03",
+      "src": "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-progress-03.jpg",
+      "alt": "Patio paving and raised planter by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "paving",
+      "projectSlug": "patio-raised-planter-conwy",
+      "projectTitle": "Patio & Raised Planter \u2014 Conwy"
+    },
+    {
+      "id": "patio-raised-planter-conwy-04",
+      "src": "/images/projects/patio-raised-planter-conwy/patio-raised-planter-conwy-exterior-04.jpg",
+      "alt": "Patio paving and raised planter by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "paving",
+      "projectSlug": "patio-raised-planter-conwy",
+      "projectTitle": "Patio & Raised Planter \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-01",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-overview-01.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-02",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-02.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-03",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-progress-03.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-04",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-exterior-04.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-05",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-interior-05.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-06",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-foundation-06.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-07",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-blockwork-07.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 blockwork view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-08",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-completed-08.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 completed view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "home-extension-pebbledash-conwy-01",
+      "src": "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-overview-01.jpg",
+      "alt": "Single-storey home extension with red brick base by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "home-extension-pebbledash-conwy",
+      "projectTitle": "Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-09",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-finishing-09.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 finishing view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "home-extension-pebbledash-conwy-02",
+      "src": "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-detail-02.jpg",
+      "alt": "Rear home extension with steel lintel by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "home-extension-pebbledash-conwy",
+      "projectTitle": "Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-10",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-overview-10.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-11",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-11.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-12",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-progress-12.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-13",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-exterior-13.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-14",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-interior-14.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-15",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-foundation-15.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-16",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-blockwork-16.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 blockwork view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-17",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-completed-17.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 completed view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-18",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-finishing-18.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 finishing view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-19",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-overview-19.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 overview view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-20",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-detail-20.jpg",
+      "alt": "Interior renovation and plastering by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "home-extension-pebbledash-conwy-03",
+      "src": "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-progress-03.jpg",
+      "alt": "Concrete blockwork home extension by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "extensions",
+      "projectSlug": "home-extension-pebbledash-conwy",
+      "projectTitle": "Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-21",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-progress-21.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 progress view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "home-extension-pebbledash-conwy-04",
+      "src": "/images/projects/home-extension-pebbledash-conwy/home-extension-pebbledash-conwy-exterior-04.jpg",
+      "alt": "Home extension blockwork with structural lintel by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "extensions",
+      "projectSlug": "home-extension-pebbledash-conwy",
+      "projectTitle": "Home Extension \u2014 Conwy"
+    },
+    {
+      "id": "open-plan-kitchen-renovation-conwy-22",
+      "src": "/images/projects/open-plan-kitchen-renovation-conwy/open-plan-kitchen-renovation-conwy-exterior-22.jpg",
+      "alt": "Structural wall removal for open-plan kitchen by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "structural",
+      "projectSlug": "open-plan-kitchen-renovation-conwy",
+      "projectTitle": "Open-Plan Kitchen Renovation \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-01",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-overview-01.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-02",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-detail-02.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-03",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-progress-03.jpg",
+      "alt": "Red brick outbuilding construction by Cimatti & Roberts in Conwy \u2014 progress view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-04",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-exterior-04.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-05",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-interior-05.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-06",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-foundation-06.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-07",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-blockwork-07.jpg",
+      "alt": "Red brick outbuilding construction by Cimatti & Roberts in Conwy \u2014 blockwork view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-08",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-completed-08.jpg",
+      "alt": "Red brick outbuilding construction by Cimatti & Roberts in Conwy \u2014 completed view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-09",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-finishing-09.jpg",
+      "alt": "Red brick outbuilding construction by Cimatti & Roberts in Conwy \u2014 finishing view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-10",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-overview-10.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 overview view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-11",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-detail-11.jpg",
+      "alt": "Red brick outbuilding construction by Cimatti & Roberts in Conwy \u2014 detail view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-12",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-progress-12.jpg",
+      "alt": "Red brick outbuilding construction by Cimatti & Roberts in Conwy \u2014 progress view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-13",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-exterior-13.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 exterior view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-14",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-interior-14.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 interior view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    },
+    {
+      "id": "brick-garage-construction-conwy-15",
+      "src": "/images/projects/brick-garage-construction-conwy/brick-garage-construction-conwy-foundation-15.jpg",
+      "alt": "New brick and block garage by Cimatti & Roberts in Conwy, North Wales \u2014 foundation view",
+      "category": "extensions",
+      "projectSlug": "brick-garage-construction-conwy",
+      "projectTitle": "Brick Garage Construction \u2014 Conwy"
+    }
+  ]
+}

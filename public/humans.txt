@@ -1,0 +1,13 @@
+/* TEAM */
+Co-founders: Sam Cimatti, Jason Roberts
+Company: Cimatti & Roberts Bricklaying & Construction
+Site: https://cimattiandroberts.co.uk
+Location: Deganwy, Conwy, North Wales, United Kingdom
+
+/* THANKS */
+Customers across North Wales who trust us with their homes and projects.
+
+/* SITE */
+Last update: 2026-07-04
+Standards: HTML5, CSS3, WCAG accessibility practices
+Software: Next.js, React, TypeScript, Tailwind CSS

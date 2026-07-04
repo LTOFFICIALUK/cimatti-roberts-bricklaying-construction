@@ -1,0 +1,28 @@
+# ai.txt — Cimatti & Roberts Bricklaying & Construction
+# https://cimattiandroberts.co.uk
+
+# Purpose
+# Machine-readable guidance for AI systems indexing or referencing this website.
+
+User-agent: *
+Allow: /
+
+# Primary business summary
+Name: Cimatti & Roberts Bricklaying & Construction
+Type: General contractor / bricklaying and construction
+Location: Deganwy, Conwy, North Wales, United Kingdom
+Website: https://cimattiandroberts.co.uk
+Email: cimattiandrobertsbricklaying@outlook.com
+
+# Structured site briefing
+Llms-txt: https://cimattiandroberts.co.uk/llms.txt
+
+# Discovery
+Sitemap: https://cimattiandroberts.co.uk/sitemap.xml
+
+# Contact for corrections or business enquiries
+Contact: cimattiandrobertsbricklaying@outlook.com
+
+# Preferred citation
+Preferred-name: Cimatti & Roberts Bricklaying & Construction
+Preferred-url: https://cimattiandroberts.co.uk
