@@ -83,9 +83,6 @@ export const HeroSlider = () => {
 
       <div className="relative mx-auto flex min-h-[520px] max-w-7xl flex-col justify-center px-4 py-16 sm:px-6 lg:min-h-[600px] lg:px-8">
         <div className="max-w-2xl">
-          <span className="mb-4 inline-block rounded-full bg-gold px-4 py-1 text-xs font-bold uppercase tracking-wider text-charcoal">
-            {siteConfig.tagline}
-          </span>
           <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl lg:text-6xl">
             {slide.headline}
           </h1>
