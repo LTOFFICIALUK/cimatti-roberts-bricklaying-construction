@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { CTABanner } from "@/components/ui/CTABanner";
+import { FaqSection } from "@/components/ui/FaqSection";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { getServiceFaqs } from "@/lib/faq";
 import type { Service } from "@/lib/services";
 import { services } from "@/lib/services";
 import {
@@ -21,6 +23,7 @@ export const ServiceDetailTemplate = ({
   const relatedServices = services
     .filter((item) => item.slug !== service.slug)
     .slice(0, 3);
+  const serviceFaqs = getServiceFaqs(service.slug);
 
   return (
     <>
@@ -170,6 +173,13 @@ export const ServiceDetailTemplate = ({
           </ul>
         </div>
       </section>
+
+      <FaqSection
+        items={serviceFaqs}
+        description={`Practical questions about ${service.title.toLowerCase()} in North Wales — quotes, coverage and how we work.`}
+        showContactLink
+        className="border-t border-gray-100 py-16 lg:py-20"
+      />
 
       <section className="py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

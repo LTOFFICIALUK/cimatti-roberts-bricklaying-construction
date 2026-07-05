@@ -54,8 +54,8 @@ export default function GalleryPage() {
             photos across {categoryGroups.length} categories
           </p>
           <p className="mx-auto mt-3 max-w-2xl text-center text-gray-600">
-            Browse by category, then explore individual projects and locations
-            across North Wales.
+            Browse by category and open individual case studies with full
+            project photography across North Wales.
           </p>
           <div className="mt-10">
             <GalleryGrid categoryGroups={categoryGroups} />

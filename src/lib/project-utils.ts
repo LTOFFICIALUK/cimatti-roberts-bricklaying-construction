@@ -4,6 +4,7 @@ import {
   type GalleryCategory,
 } from "./gallery";
 import type { Project } from "./projects";
+import type { ServiceCategory } from "./services";
 
 export type ProjectCategory = Exclude<GalleryCategory, "all">;
 
@@ -49,6 +50,33 @@ export const getImageAlt = (project: Project, imageSrc: string, index: number) =
   const phase = phaseMatch?.[1]?.replace(/-/g, " ") ?? `photo ${index + 1}`;
   return `${project.description} — ${phase}`;
 };
+
+export const categoryToServiceSlug: Record<ProjectCategory, ServiceCategory> = {
+  bricklaying: "bricklaying",
+  extensions: "extensions",
+  paving: "landscaping",
+  structural: "structural",
+  repointing: "repointing",
+};
+
+export const getProjectLocation = (project: Project): string | null => {
+  const match = project.title.match(/ — (.+)$/);
+  return match?.[1] ?? null;
+};
+
+export const getRelatedProjects = (
+  project: Project,
+  items: Project[],
+  limit = 3,
+): Project[] =>
+  items
+    .filter(
+      (item) =>
+        item.slug !== project.slug && item.category === project.category,
+    )
+    .slice(0, limit);
+
+export const getProjectPath = (slug: string) => `/gallery/${slug}`;
 
 export const buildCategoryGroups = (items: Project[]): CategoryGroup[] => {
   const sorted = sortProjectsForGallery(items);

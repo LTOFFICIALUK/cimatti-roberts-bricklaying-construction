@@ -55,3 +55,99 @@ export const faqs: FaqItem[] = [
       "Cimatti & Roberts offers 30+ years of hands-on experience, direct contact with both co-founders, fully insured work, quality guaranteed results, and a 5-star customer rating. We cover 8 service areas across North Wales.",
   },
 ];
+
+const faqIds = {
+  areas: 0,
+  freeQuotes: 1,
+  servicesList: 2,
+  experience: 3,
+  contact: 4,
+  insured: 5,
+  smallJobs: 6,
+  quoting: 7,
+  process: 8,
+  whyChoose: 9,
+} as const;
+
+type FaqId = keyof typeof faqIds;
+
+export const getFaqsByIds = (ids: FaqId[]): FaqItem[] =>
+  ids.map((id) => faqs[faqIds[id]]);
+
+const serviceFaqIds = {
+  bricklaying: [
+    "areas",
+    "freeQuotes",
+    "insured",
+    "smallJobs",
+    "quoting",
+    "process",
+    "contact",
+  ],
+  extensions: [
+    "areas",
+    "freeQuotes",
+    "experience",
+    "insured",
+    "quoting",
+    "process",
+    "whyChoose",
+    "contact",
+  ],
+  structural: [
+    "areas",
+    "freeQuotes",
+    "experience",
+    "insured",
+    "quoting",
+    "process",
+    "contact",
+  ],
+  repointing: [
+    "areas",
+    "freeQuotes",
+    "insured",
+    "smallJobs",
+    "quoting",
+    "process",
+    "contact",
+  ],
+  "general-building": [
+    "areas",
+    "freeQuotes",
+    "insured",
+    "smallJobs",
+    "quoting",
+    "process",
+    "contact",
+  ],
+  groundwork: [
+    "areas",
+    "freeQuotes",
+    "insured",
+    "quoting",
+    "process",
+    "contact",
+  ],
+  plastering: [
+    "areas",
+    "freeQuotes",
+    "insured",
+    "smallJobs",
+    "quoting",
+    "process",
+    "contact",
+  ],
+  landscaping: [
+    "areas",
+    "freeQuotes",
+    "insured",
+    "smallJobs",
+    "quoting",
+    "process",
+    "contact",
+  ],
+} as const satisfies Record<string, FaqId[]>;
+
+export const getServiceFaqs = (serviceSlug: keyof typeof serviceFaqIds): FaqItem[] =>
+  getFaqsByIds([...serviceFaqIds[serviceSlug]]);

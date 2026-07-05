@@ -7,6 +7,7 @@ type FaqSectionProps = {
   id?: string;
   className?: string;
   showContactLink?: boolean;
+  description?: string;
 };
 
 export const FaqSection = ({
@@ -14,13 +15,14 @@ export const FaqSection = ({
   id = "faq",
   className = "bg-gray-50 py-16 lg:py-24",
   showContactLink = false,
+  description = "Common questions about our bricklaying and construction services in North Wales.",
 }: FaqSectionProps) => (
   <section id={id} className={className}>
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
       <SectionHeading
         label="FAQ"
         title="Frequently Asked Questions"
-        description="Common questions about our bricklaying and construction services in North Wales."
+        description={description}
       />
       <div className="space-y-3">
         {items.map((faq) => (

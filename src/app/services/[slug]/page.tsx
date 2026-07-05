@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ServiceDetailTemplate } from "@/components/services/ServiceDetailTemplate";
+import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
 import { ServiceJsonLd } from "@/components/seo/ServiceJsonLd";
+import { getServiceFaqs } from "@/lib/faq";
 import { createServiceMetadata } from "@/lib/seo/metadata";
 import { services, getServiceBySlug } from "@/lib/services";
 
@@ -42,6 +44,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
   return (
     <>
       <ServiceJsonLd service={service} />
+      <FaqJsonLd items={getServiceFaqs(service.slug)} />
       <ServiceDetailTemplate service={service} />
     </>
   );

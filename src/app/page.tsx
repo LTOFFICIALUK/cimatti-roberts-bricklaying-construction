@@ -15,6 +15,7 @@ import { FaqSection } from "@/components/ui/FaqSection";
 import { createPageMetadata } from "@/lib/seo/metadata";
 import { FaqJsonLd } from "@/components/seo/FaqJsonLd";
 import { faqs } from "@/lib/faq";
+import { getProjectPath } from "@/lib/project-utils";
 import { projects } from "@/lib/projects";
 import { services } from "@/lib/services";
 import { testimonials } from "@/lib/testimonials";
@@ -113,18 +114,24 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {featuredProjects.map((project) => (
-              <div
+              <Link
                 key={project.slug}
-                className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-200"
+                href={getProjectPath(project.slug)}
+                className="group relative aspect-[4/3] overflow-hidden rounded-2xl bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                aria-label={`View case study: ${project.title}`}
               >
                 <Image
                   src={project.coverImage}
                   alt={project.description}
                   fill
-                  className="object-cover object-center scale-[1.12]"
+                  className="object-cover object-center scale-[1.12] transition-transform duration-300 group-hover:scale-[1.18]"
                   sizes="(max-width: 768px) 100vw, 25vw"
                 />
-              </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                <span className="absolute bottom-4 left-4 right-4 text-sm font-semibold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  View case study →
+                </span>
+              </Link>
             ))}
           </div>
         </div>

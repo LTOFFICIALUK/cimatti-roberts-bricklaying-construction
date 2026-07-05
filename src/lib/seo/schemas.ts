@@ -1,5 +1,5 @@
 import { areas } from "@/lib/areas";
-import { faqs } from "@/lib/faq";
+import { faqs, type FaqItem } from "@/lib/faq";
 import type { Service } from "@/lib/services";
 import { services } from "@/lib/services";
 import { BUSINESS_ID, WEBSITE_ID } from "@/lib/seo/ids";
@@ -150,10 +150,10 @@ export const buildServiceSchema = (service: Service) => ({
   },
 });
 
-export const buildFaqSchema = () => ({
+export const buildFaqSchema = (items: FaqItem[] = faqs) => ({
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: faqs.map((faq) => ({
+  mainEntity: items.map((faq) => ({
     "@type": "Question",
     name: faq.question,
     acceptedAnswer: {

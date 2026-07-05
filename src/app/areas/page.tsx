@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { CTABanner } from "@/components/ui/CTABanner";
 import { createPageMetadata } from "@/lib/seo/metadata";
 import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
-import { areas } from "@/lib/areas";
+import { areas, getAreaPath } from "@/lib/areas";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
@@ -41,7 +41,8 @@ export default function AreasPage() {
             Areas We Cover in North Wales
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
-            Based in Deganwy, Conwy — serving homeowners and businesses across North Wales with professional bricklaying and construction services.
+            Based in Deganwy, Conwy — serving homeowners and businesses across
+            North Wales with professional bricklaying and construction services.
           </p>
         </div>
       </section>
@@ -50,19 +51,46 @@ export default function AreasPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Local Builders Near You"
-            description="Don't see your area? Contact us — we cover wider North Wales."
+            description="We cover eight towns across North Wales. Detailed local pages where we have extensive project photography — contact us for anywhere else in the region."
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {areas.map((area) => (
-              <article
-                key={area.slug}
-                className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm"
-              >
-                <div className="mb-3 h-1 w-8 rounded-full bg-gold" />
-                <h2 className="text-lg font-bold text-charcoal">{area.name}</h2>
-                <p className="mt-3 text-sm text-gray-600">{area.description}</p>
-              </article>
-            ))}
+            {areas.map((area) => {
+              const cardContent = (
+                <>
+                  <div className="mb-3 h-1 w-8 rounded-full bg-gold" />
+                  <h2 className="text-lg font-bold text-charcoal">{area.name}</h2>
+                  <p className="mt-3 text-sm leading-6 text-gray-600">
+                    {area.description}
+                  </p>
+                  {area.page && (
+                    <span className="mt-4 inline-block text-sm font-semibold text-gold-dark">
+                      View local projects →
+                    </span>
+                  )}
+                </>
+              );
+
+              if (area.page) {
+                return (
+                  <Link
+                    key={area.slug}
+                    href={getAreaPath(area.slug)}
+                    className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm transition-all hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
+                  >
+                    {cardContent}
+                  </Link>
+                );
+              }
+
+              return (
+                <article
+                  key={area.slug}
+                  className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm"
+                >
+                  {cardContent}
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>

@@ -1,4 +1,6 @@
 import type { MetadataRoute } from "next";
+import { areasWithPages } from "@/lib/areas";
+import { projects } from "@/lib/projects";
 import { services } from "@/lib/services";
 import { siteConfig } from "@/lib/site";
 
@@ -29,5 +31,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages];
+  const projectPages = projects.map((project) => ({
+    url: `${baseUrl}/gallery/${project.slug}`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  const areaPages = areasWithPages.map((area) => ({
+    url: `${baseUrl}/areas/${area.slug}`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...servicePages, ...projectPages, ...areaPages];
 }
