@@ -17,18 +17,18 @@ export const siteConfig = {
   },
   founders: [
     {
-      name: "Sam Cimatti",
-      role: "Co-founder",
-      phone: "07872463390",
-      phoneDisplay: "07872 463390",
-      whatsapp: "447872463390",
-    },
-    {
       name: "Jason Roberts",
       role: "Co-founder",
       phone: "07861140795",
       phoneDisplay: "07861 140795",
       whatsapp: "447861140795",
+    },
+    {
+      name: "Sam Cimatti",
+      role: "Co-founder",
+      phone: "07872463390",
+      phoneDisplay: "07872 463390",
+      whatsapp: "447872463390",
     },
   ],
   hours: "Mon–Sat (call anytime) · Sunday closed",
@@ -55,7 +55,7 @@ export const siteConfig = {
     "Over 30 years' experience",
     "Based in North Wales",
     "Local, family-run team",
-    "Sam Cimatti & Jason Roberts — both contactable directly",
+    "Jason Roberts & Sam Cimatti — both contactable directly",
   ],
   lastContentUpdate: "2026-07-04",
   geoFacts: {
@@ -63,14 +63,14 @@ export const siteConfig = {
     serviceAreaCount: 8,
     customerRating: "5.0",
     responseTime:
-      "Sam and Jason are contactable directly Monday to Saturday",
+      "Jason and Sam are contactable directly Monday to Saturday",
   },
   aboutStory: [
-    "Cimatti & Roberts Bricklaying & Construction was founded by Sam Cimatti and Jason Roberts — two builders with a shared commitment to quality workmanship and honest, direct communication with every client.",
+    "Cimatti & Roberts Bricklaying & Construction was founded by Jason Roberts and Sam Cimatti — two builders with a shared commitment to quality workmanship and honest, direct communication with every client.",
     "Based at 57 Parc Pentywyn in Deganwy, Conwy, the company has grown through word of mouth across North Wales. Homeowners and small commercial clients rely on the team for everything from garden walls and repointing to full home extensions and new build projects.",
-    "Both co-founders remain hands-on and contactable on every job. Clients speak directly to Sam or Jason — not a call centre — for free advice, site visits and no-obligation quotations.",
+    "Both co-founders remain hands-on and contactable on every job. Clients speak directly to Jason or Sam — not a call centre — for free advice, site visits and no-obligation quotations.",
   ],
 } as const;
 
-export const primaryPhone = siteConfig.founders[1].phone;
-export const primaryPhoneDisplay = siteConfig.founders[1].phoneDisplay;
+export const primaryPhone = siteConfig.founders[0].phone;
+export const primaryPhoneDisplay = siteConfig.founders[0].phoneDisplay;

@@ -27,7 +27,7 @@ export const faqs: FaqItem[] = [
   {
     question: "Who should I contact for a quote?",
     answer:
-      "You can contact co-founders Sam Cimatti on 07872 463390 or Jason Roberts on 07861 140795. We are available Monday to Saturday.",
+      "You can contact co-founders Jason Roberts on 07861 140795 or Sam Cimatti on 07872 463390. We are available Monday to Saturday.",
   },
   {
     question: "Are you fully insured?",
@@ -42,12 +42,12 @@ export const faqs: FaqItem[] = [
   {
     question: "How does your quoting and pricing work?",
     answer:
-      "We provide free advice and no-obligation written quotations. Pricing is based on the scope of work, materials and access — there are no hidden fees. Sam or Jason will visit your property, discuss your requirements and provide a clear quote before any work begins.",
+      "We provide free advice and no-obligation written quotations. Pricing is based on the scope of work, materials and access — there are no hidden fees. Jason or Sam will visit your property, discuss your requirements and provide a clear quote before any work begins.",
   },
   {
     question: "What is your process from first contact to starting work?",
     answer:
-      "Contact Sam or Jason by phone, WhatsApp or our online form. We discuss your project, arrange a site visit if needed, and provide a free quotation. Once you are happy to proceed, we agree a start date and keep you updated throughout the build. We maintain a clean, tidy site and are available Mon–Sat.",
+      "Contact Jason or Sam by phone, WhatsApp or our online form. We discuss your project, arrange a site visit if needed, and provide a free quotation. Once you are happy to proceed, we agree a start date and keep you updated throughout the build. We maintain a clean, tidy site and are available Mon–Sat.",
   },
   {
     question: "Why choose Cimatti & Roberts over other builders?",

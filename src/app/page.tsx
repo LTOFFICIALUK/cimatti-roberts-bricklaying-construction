@@ -172,7 +172,7 @@ export default function HomePage() {
               <SectionHeading
                 label="Get In Touch"
                 title="Request a Free Quote"
-                description="Fill in the form and Sam or Jason will get back to you. Or call us directly — we're available Mon–Sat."
+                description="Fill in the form and Jason or Sam will get back to you. Or call us directly — we're available Mon–Sat."
                 align="left"
               />
               <CheckList items={siteConfig.whyChooseUs} />

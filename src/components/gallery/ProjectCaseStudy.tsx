@@ -234,7 +234,7 @@ export const ProjectCaseStudy = ({ project }: ProjectCaseStudyProps) => {
 
       <CTABanner
         title={`Planning a similar ${categoryMeta.label.toLowerCase()} project?`}
-        description={`Free advice and no-obligation quotations from Sam or Jason${location ? ` — including ${location} and across North Wales` : " across North Wales"}.`}
+        description={`Free advice and no-obligation quotations from Jason or Sam${location ? ` — including ${location} and across North Wales` : " across North Wales"}.`}
       />
     </article>
   );

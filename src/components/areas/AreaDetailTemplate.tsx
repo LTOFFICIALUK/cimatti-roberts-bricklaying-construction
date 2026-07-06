@@ -119,8 +119,8 @@ export const AreaDetailTemplate = ({ area }: AreaDetailTemplateProps) => {
               </h2>
               <p className="mt-3 text-sm leading-7 text-gray-600">
                 {area.slug === "deganwy"
-                  ? `Visit us at ${siteConfig.address.full}. Sam and Jason are available Mon–Sat for free advice and quotations.`
-                  : `Based in Deganwy, we reach ${area.name} quickly. Call Sam or Jason directly for a site visit and free quote.`}
+                  ? `Visit us at ${siteConfig.address.full}. Jason and Sam are available Mon–Sat for free advice and quotations.`
+                  : `Based in Deganwy, we reach ${area.name} quickly. Call Jason or Sam directly for a site visit and free quote.`}
               </p>
               <div className="mt-5 flex flex-col gap-2 text-sm">
                 {siteConfig.founders.map((founder) => (
@@ -228,7 +228,7 @@ export const AreaDetailTemplate = ({ area }: AreaDetailTemplateProps) => {
 
       <CTABanner
         title={`Need a builder in ${area.name}?`}
-        description={`Free advice and no-obligation quotations from Sam or Jason — ${siteConfig.experience} of experience across North Wales.`}
+        description={`Free advice and no-obligation quotations from Jason or Sam — ${siteConfig.experience} of experience across North Wales.`}
       />
     </article>
   );

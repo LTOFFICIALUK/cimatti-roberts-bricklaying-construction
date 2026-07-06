@@ -23,11 +23,11 @@ export const areas: Area[] = [
     page: {
       seoTitle: "Builders in Deganwy",
       seoDescription:
-        "Bricklaying and construction in Deganwy from your local team at 57 Parc Pentywyn. Extensions, repointing, paving and more. Free quotes from Sam and Jason.",
+        "Bricklaying and construction in Deganwy from your local team at 57 Parc Pentywyn. Extensions, repointing, paving and more. Free quotes from Jason and Sam.",
       heroImage:
         "/images/projects/coastal-block-extension-deganwy/coastal-block-extension-deganwy-overview-01.jpg",
       intro: [
-        "Cimatti & Roberts is based in Deganwy — our office and yard are at 57 Parc Pentywyn, so local homeowners get fast site visits, direct contact with Sam or Jason, and a team that already knows the area.",
+        "Cimatti & Roberts is based in Deganwy — our office and yard are at 57 Parc Pentywyn, so local homeowners get fast site visits, direct contact with Jason or Sam, and a team that already knows the area.",
         "Deganwy sits on the coast between Conwy town and the Llandudno headland. Many properties here face Irish Sea weather, sloped gardens and a mix of brick, render and pebbledash — the kind of work we handle every week across North Wales.",
       ],
       localNote:
@@ -75,7 +75,7 @@ export const areas: Area[] = [
     name: "Llandudno Junction",
     slug: "llandudno-junction",
     description:
-      "We regularly work in Llandudno Junction on projects from repointing and brick repairs to extensions and landscaping. Get in touch with Sam or Jason for a free quote.",
+      "We regularly work in Llandudno Junction on projects from repointing and brick repairs to extensions and landscaping. Get in touch with Jason or Sam for a free quote.",
   },
   {
     name: "Colwyn Bay",

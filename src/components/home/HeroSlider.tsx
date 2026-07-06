@@ -42,7 +42,7 @@ const slides = [
     trustPoints: [
       "Extensions & new builds",
       "Paving & landscaping",
-      "Contact Sam or Jason directly",
+      "Contact Jason or Sam directly",
     ],
   },
 ];

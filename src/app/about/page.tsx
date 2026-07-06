@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   ...createPageMetadata({
     title: "About Us",
     description:
-      "Meet Sam Cimatti and Jason Roberts — co-founders with 30+ years of bricklaying and construction experience serving Deganwy, Conwy and North Wales.",
+      "Meet Jason Roberts and Sam Cimatti — co-founders with 30+ years of bricklaying and construction experience serving Deganwy, Conwy and North Wales.",
     path: "/about",
   }),
   keywords: [
@@ -119,7 +119,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <SectionHeading
             label="Meet the Team"
-            title="Sam Cimatti & Jason Roberts"
+            title="Jason Roberts & Sam Cimatti"
             description="Co-founders with over 30 years of combined hands-on experience. Both are contactable directly for advice and quotations."
           />
           <div className="grid gap-8 md:grid-cols-2">

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   ...createPageMetadata({
     title: "Contact Us for a Free Quote",
     description:
-      "Contact Cimatti & Roberts for a free quote. Call Sam on 07872 463390 or Jason on 07861 140795. Based in Deganwy, Conwy, North Wales.",
+      "Contact Cimatti & Roberts for a free quote. Call Jason on 07861 140795 or Sam on 07872 463390. Based in Deganwy, Conwy, North Wales.",
     path: "/contact",
   }),
   keywords: [
@@ -42,7 +42,7 @@ export default function ContactPage() {
             Get In Touch
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-gray-300">
-            Free advice and no-obligation quotations. Contact Sam or Jason directly — available Mon–Sat.
+            Free advice and no-obligation quotations. Contact Jason or Sam directly — available Mon–Sat.
           </p>
         </div>
       </section>

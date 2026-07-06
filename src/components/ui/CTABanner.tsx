@@ -8,7 +8,7 @@ interface CTABannerProps {
 
 export const CTABanner = ({
   title = "Ready to Start Your Project?",
-  description = "Get free advice and a no-obligation quotation from Sam or Jason. We cover all of North Wales.",
+  description = "Get free advice and a no-obligation quotation from Jason or Sam. We cover all of North Wales.",
 }: CTABannerProps) => {
   return (
     <section className="bg-charcoal py-16">

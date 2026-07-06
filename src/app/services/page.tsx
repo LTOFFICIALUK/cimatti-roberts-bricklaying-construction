@@ -60,7 +60,7 @@ export default function ServicesPage() {
             align="left"
           />
           <p className="-mt-4 mb-6 max-w-3xl text-base leading-8 text-gray-600">
-            {siteConfig.intro} Sam and Jason are contactable directly on every
+            {siteConfig.intro} Jason and Sam are contactable directly on every
             project — from garden walls and repointing to full extensions and new
             builds across Deganwy, Conwy and wider North Wales.
           </p>

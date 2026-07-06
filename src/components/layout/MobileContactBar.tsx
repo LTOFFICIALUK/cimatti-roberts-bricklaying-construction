@@ -13,7 +13,7 @@ export const MobileContactBar = ({
   isChromeVisible,
   isMenuOpen,
 }: MobileContactBarProps) => {
-  const whatsappUrl = `https://wa.me/${siteConfig.founders[1].whatsapp}?text=${encodeURIComponent("Hi, I'd like to request a free quote for a project.")}`;
+  const whatsappUrl = `https://wa.me/${siteConfig.founders[0].whatsapp}?text=${encodeURIComponent("Hi, I'd like to request a free quote for a project.")}`;
 
   return (
     <div

@@ -12,7 +12,7 @@ export const EntitySummary = () => (
           <strong>{siteConfig.name}</strong> is a family-run bricklaying and
           general construction company based in{" "}
           {siteConfig.address.town}, {siteConfig.address.county}, North Wales.
-          Co-founders Sam Cimatti and Jason Roberts have more than{" "}
+          Co-founders Jason Roberts and Sam Cimatti have more than{" "}
           {siteConfig.geoFacts.yearsExperience} years of hands-on building
           experience.
         </p>
@@ -26,14 +26,15 @@ export const EntitySummary = () => (
         <p className="mt-4">
           Cimatti & Roberts is fully insured, offers free advice and
           no-obligation quotations, and maintains a 5-star customer rating.{" "}
-          {siteConfig.geoFacts.responseTime}. Contact Sam on{" "}
+          {siteConfig.geoFacts.responseTime}. Contact{" "}
+          {siteConfig.founders[0].name.split(" ")[0]} on{" "}
           <a
             href={`tel:${siteConfig.founders[0].phone}`}
             className="font-semibold text-charcoal hover:text-gold-dark"
           >
             {siteConfig.founders[0].phoneDisplay}
           </a>
-          , Jason on{" "}
+          , {siteConfig.founders[1].name.split(" ")[0]} on{" "}
           <a
             href={`tel:${siteConfig.founders[1].phone}`}
             className="font-semibold text-charcoal hover:text-gold-dark"

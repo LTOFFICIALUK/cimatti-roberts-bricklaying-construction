@@ -53,7 +53,7 @@ export const ContactForm = ({ compact = false }: { compact?: boolean }) => {
     } catch {
       setStatus("error");
       setErrorMessage(
-        `Unable to send your message. Please call Sam on ${siteConfig.founders[0].phoneDisplay} or Jason on ${siteConfig.founders[1].phoneDisplay}.`,
+        `Unable to send your message. Please call ${siteConfig.founders[0].name.split(" ")[0]} on ${siteConfig.founders[0].phoneDisplay} or ${siteConfig.founders[1].name.split(" ")[0]} on ${siteConfig.founders[1].phoneDisplay}.`,
       );
     }
   };
@@ -66,7 +66,7 @@ export const ContactForm = ({ compact = false }: { compact?: boolean }) => {
       >
         <h3 className="text-xl font-bold text-green-900">Message Sent!</h3>
         <p className="mt-2 text-green-800">
-          Thank you for your enquiry. Sam or Jason will be in touch shortly.
+          Thank you for your enquiry. Jason or Sam will be in touch shortly.
         </p>
         <button
           type="button"
